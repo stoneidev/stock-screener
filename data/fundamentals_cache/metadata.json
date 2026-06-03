@@ -3252,8 +3252,8 @@
     "in_earnings_season": true
   },
   "HY": {
-    "last_updated": "2026-02-12T13:54:49.975180",
-    "in_earnings_season": true
+    "last_updated": "2026-06-02T23:28:03.419969",
+    "in_earnings_season": false
   },
   "HYMC": {
     "last_updated": "2025-12-04T13:54:36.385180",
@@ -8628,8 +8628,8 @@
     "in_earnings_season": true
   },
   "CNXN": {
-    "last_updated": "2026-02-13T13:32:23.511440",
-    "in_earnings_season": true
+    "last_updated": "2026-06-02T23:13:36.193190",
+    "in_earnings_season": false
   },
   "ESQ": {
     "last_updated": "2026-05-11T15:49:49.354323",
@@ -9505,6 +9505,10 @@
   },
   "FGMC": {
     "last_updated": "2026-06-02T17:09:43.194161",
+    "in_earnings_season": false
+  },
+  "ATLC": {
+    "last_updated": "2026-06-02T23:05:27.094331",
     "in_earnings_season": false
   }
 }
