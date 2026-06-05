@@ -5436,8 +5436,8 @@
     "in_earnings_season": true
   },
   "RLI": {
-    "last_updated": "2026-02-13T14:07:10.009598",
-    "in_earnings_season": true
+    "last_updated": "2026-06-05T16:08:17.805260",
+    "in_earnings_season": false
   },
   "RMBS": {
     "last_updated": "2026-05-11T16:18:01.693518",
@@ -9513,6 +9513,18 @@
   },
   "VSXY": {
     "last_updated": "2026-06-03T18:03:40.735188",
+    "in_earnings_season": false
+  },
+  "FATN": {
+    "last_updated": "2026-06-05T15:40:45.302823",
+    "in_earnings_season": false
+  },
+  "FOXX": {
+    "last_updated": "2026-06-05T15:42:29.283765",
+    "in_earnings_season": false
+  },
+  "PPLI": {
+    "last_updated": "2026-06-05T16:05:15.697603",
     "in_earnings_season": false
   }
 }
