@@ -857,6 +857,31 @@ r_r_ratio = reward / risk
 
 ---
 
+## 📊 Dashboard & Top3 Simulation
+
+The daily scan now also emits machine-readable JSON (`data/daily_scans/scan_*.json`)
+and runs a Top3 buy-signal trade simulation, surfaced as a GitHub Pages dashboard.
+
+- **Simulation policy:** each scan day, enter the top 3 BUY signals at the next
+  trading day's open; exit at the report's stop-loss or target (stop wins on a
+  same-day tie); hold until hit. Prices come from yfinance daily bars. Each
+  recommendation is tracked from its signal date through entry to either an open
+  (unrealized) or closed (realized) P&L.
+- **Run locally:**
+  ```bash
+  python scripts/backfill_scans.py     # one-time: rebuild history from GH artifacts
+  python scripts/run_simulation.py     # compute trades / equity / summary
+  ```
+- **Outputs:** `data/simulation/{trades,equity_curve,open_positions,summary}.json`.
+- **Dashboard:** static site in `docs/site/`, auto-deployed to GitHub Pages by
+  `.github/workflows/pages.yml`. Enable Pages once via
+  Settings → Pages → Source: "GitHub Actions".
+
+> Note: simulation history starts from the earliest scan recoverable from
+> non-expired GitHub Actions artifacts; older scans are not retained.
+
+---
+
 ## Contributing
 
 This project is currently a personal trading system. If you'd like to contribute:
