@@ -37,6 +37,10 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
+        with:
+          # Auto-enable Pages (build_type=workflow) if it got reset, e.g. by a
+          # repository visibility change.
+          enablement: true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
