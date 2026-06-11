@@ -89,6 +89,10 @@ jobs:
           # --git-storage flag enables Git-based fundamental storage
           python run_optimized_scan.py --conservative --git-storage
 
+      - name: Run Top3 trade simulation
+        run: |
+          python scripts/run_simulation.py
+
       - name: Show fundamental refresh stats
         if: always()
         run: |
@@ -120,23 +124,23 @@ jobs:
             echo "No metadata file found"
           fi
 
-      - name: Commit updated fundamental cache
+      - name: Commit scan JSON, simulation, and fundamental cache
         id: commit
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
-          # Add fundamental cache directory
-          git add data/fundamentals_cache/
+          # Add fundamental cache plus structured scan + simulation outputs
+          git add data/fundamentals_cache/ data/daily_scans/*.json data/simulation/*.json
 
           # Check if there are changes
           if git diff --staged --quiet; then
-            echo "No fundamental cache changes to commit"
+            echo "No changes to commit"
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
             CHANGED_FILES=$(git diff --staged --name-only | wc -l)
-            echo "Committing $CHANGED_FILES updated fundamental files"
-            git commit -m "chore: update fundamental cache ($CHANGED_FILES stocks) - ${{ steps.date.outputs.date }}"
+            echo "Committing $CHANGED_FILES changed files"
+            git commit -m "chore: update scan JSON, simulation, and fundamental cache - ${{ steps.date.outputs.date }}"
             echo "has_changes=true" >> $GITHUB_OUTPUT
           fi
 
