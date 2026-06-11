@@ -31,7 +31,8 @@ def load_scans():
 
 def main():
     parser = argparse.ArgumentParser(description="Top3 trade simulation")
-    parser.add_argument("--initial-capital", type=float, default=100_000.0)
+    parser.add_argument("--position-size", type=float, default=200.0,
+                        help="Fixed dollar amount invested per trade (default: $200)")
     parser.add_argument("--top-n", type=int, default=3)
     args = parser.parse_args()
 
@@ -54,7 +55,7 @@ def main():
 
     result = run_simulation(
         scans, price_fn,
-        initial_capital=args.initial_capital, top_n=args.top_n,
+        position_size=args.position_size, top_n=args.top_n,
     )
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -65,7 +66,8 @@ def main():
 
     s = result["summary"]
     print(f"✓ Trades: {s['num_trades']} | Open: {s['num_open']} | "
-          f"Win rate: {s['win_rate']:.1f}% | Return: {s['total_return_pct']:.2f}% | "
+          f"Win rate: {s['win_rate']:.1f}% | Invested: ${s['invested_capital']:.0f} | "
+          f"PnL: ${s['total_pnl']:.2f} ({s['total_return_pct']:.2f}%) | "
           f"MDD: {s['max_drawdown_pct']:.2f}%")
 
 

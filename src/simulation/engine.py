@@ -5,8 +5,11 @@ Policy (fixed, per design spec):
 - Stop-loss and target are absolute price levels taken from the report.
 - Hold until daily low <= stop (stop wins on same-day tie) or high >= target.
 - A ticker already held is not re-entered while its position is open.
-- Position size = initial_capital / top_n (fixed dollar amount per trade).
-- Equity = initial_capital + cumulative realized PnL + open-position unrealized PnL.
+- Position size = a FIXED dollar amount per trade (position_size, default $200).
+  No leverage, no equal-split of a notional account — each signal simply buys
+  position_size worth of shares.
+- "Invested capital" = sum of cost basis of every position that was entered.
+  Returns are reported relative to invested capital, and as absolute PnL ($).
 """
 
 from typing import Callable, List
@@ -25,11 +28,10 @@ def _valid_buys(buys: List[dict], top_n: int) -> List[dict]:
 def run_simulation(
     scans: List[dict],
     price_fn: Callable[[str], pd.DataFrame],
-    initial_capital: float = 100_000.0,
+    position_size: float = 200.0,
     top_n: int = 3,
 ) -> dict:
     scans = sorted(scans, key=lambda s: s["scan_date"])
-    position_dollars = initial_capital / top_n
 
     open_positions = {}   # ticker -> dict
     trades = []
@@ -51,11 +53,12 @@ def run_simulation(
             entry_day, entry_px = next_trading_day_open(df, scan["scan_date"])
             if entry_day is None or not entry_px:
                 continue
-            shares = position_dollars / entry_px
+            shares = position_size / entry_px
             open_positions[ticker] = {
                 "ticker": ticker, "signal_date": scan["scan_date"],
                 "entry_date": str(entry_day.date()),
                 "entry_price": entry_px, "shares": shares,
+                "cost_basis": position_size,
                 "stop_loss": buy["stop_loss"], "target": buy["target"],
                 "score": buy.get("score"),
             }
@@ -94,8 +97,9 @@ def run_simulation(
             "unrealized_pnl": unreal, "unrealized_pnl_pct": unreal_pct,
         })
 
-    equity_curve = _build_equity_curve(trades, open_list, initial_capital)
-    summary = _build_summary(trades, open_list, initial_capital, equity_curve)
+    invested = sum(t["cost_basis"] for t in trades) + sum(p["cost_basis"] for p in open_list)
+    equity_curve = _build_equity_curve(trades, open_list, invested)
+    summary = _build_summary(trades, open_list, invested, equity_curve)
     return {
         "trades": trades,
         "open_positions": open_list,
@@ -111,58 +115,64 @@ def _record_exit(trades, pos, ts, exit_price, reason):
         "ticker": pos["ticker"], "signal_date": pos["signal_date"],
         "entry_date": pos["entry_date"], "entry_price": pos["entry_price"],
         "exit_date": str(ts.date()), "exit_price": exit_price,
-        "shares": pos["shares"], "pnl": pnl, "pnl_pct": pnl_pct,
+        "shares": pos["shares"], "cost_basis": pos["cost_basis"],
+        "pnl": pnl, "pnl_pct": pnl_pct,
         "exit_reason": reason, "status": "closed",
         "stop_loss": pos["stop_loss"], "target": pos["target"],
         "score": pos.get("score"),
     })
 
 
-def _build_equity_curve(trades, open_list, initial_capital):
-    # Realized PnL accrues on exit_date; unrealized is added as a flat final point.
+def _build_equity_curve(trades, open_list, invested):
+    # Cumulative PnL over time: realized accrues on each exit_date, with the
+    # open-position unrealized PnL added as a final point. "equity" is the
+    # running PnL relative to the capital invested so far.
     by_date = {}
     for t in trades:
         by_date.setdefault(t["exit_date"], 0.0)
         by_date[t["exit_date"]] += t["pnl"]
+    base = invested if invested else 1.0
     curve, running = [], 0.0
     for date in sorted(by_date):
         running += by_date[date]
-        equity = initial_capital + running
         curve.append({
             "date": date, "realized": running, "unrealized": 0.0,
-            "equity": equity, "return_pct": (equity / initial_capital - 1) * 100,
+            "pnl": running, "return_pct": running / base * 100,
         })
     unreal_total = sum(p["unrealized_pnl"] for p in open_list)
     if curve:
         last = curve[-1]
-        equity = initial_capital + running + unreal_total
+        total = running + unreal_total
         curve.append({
             "date": last["date"], "realized": running, "unrealized": unreal_total,
-            "equity": equity, "return_pct": (equity / initial_capital - 1) * 100,
+            "pnl": total, "return_pct": total / base * 100,
         })
     elif open_list:
-        equity = initial_capital + unreal_total
         curve.append({
             "date": open_list[0]["entry_date"], "realized": 0.0,
-            "unrealized": unreal_total, "equity": equity,
-            "return_pct": (equity / initial_capital - 1) * 100,
+            "unrealized": unreal_total, "pnl": unreal_total,
+            "return_pct": unreal_total / base * 100,
         })
     return curve
 
 
-def _build_summary(trades, open_list, initial_capital, equity_curve):
+def _build_summary(trades, open_list, invested, equity_curve):
     wins = [t for t in trades if t["pnl"] > 0]
     realized = sum(t["pnl"] for t in trades)
     unreal = sum(p["unrealized_pnl"] for p in open_list)
-    equity = initial_capital + realized + unreal
-    peak, mdd = initial_capital, 0.0
+    total_pnl = realized + unreal
+    base = invested if invested else 1.0
+    # Max drawdown of the cumulative-PnL curve, relative to invested capital.
+    peak, mdd = 0.0, 0.0
     for point in equity_curve:
-        peak = max(peak, point["equity"])
-        mdd = min(mdd, (point["equity"] / peak - 1) * 100)
+        peak = max(peak, point["pnl"])
+        mdd = min(mdd, (point["pnl"] - peak) / base * 100)
     return {
-        "initial_capital": initial_capital,
-        "final_equity": equity,
-        "total_return_pct": (equity / initial_capital - 1) * 100,
+        "invested_capital": invested,
+        "realized_pnl": realized,
+        "unrealized_pnl": unreal,
+        "total_pnl": total_pnl,
+        "total_return_pct": total_pnl / base * 100,
         "num_trades": len(trades),
         "num_open": len(open_list),
         "win_rate": (len(wins) / len(trades) * 100) if trades else 0.0,

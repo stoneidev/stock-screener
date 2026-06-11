@@ -35,11 +35,12 @@ async function loadSimulation() {
   }
 
   $("#summary-cards").innerHTML = [
-    ["Total Return", fmtPct(summary.total_return_pct), summary.total_return_pct],
-    ["Win Rate", fmtPct(summary.win_rate), summary.win_rate],
-    ["Trades", summary.num_trades, 0],
-    ["Open", summary.num_open, 0],
-    ["Max Drawdown", fmtPct(summary.max_drawdown_pct), summary.max_drawdown_pct],
+    ["누적 손익", fmtUsd(summary.total_pnl), summary.total_pnl],
+    ["수익률", fmtPct(summary.total_return_pct), summary.total_return_pct],
+    ["투입 자본", fmtUsd(summary.invested_capital), 0],
+    ["승률", fmtPct(summary.win_rate), summary.win_rate],
+    ["거래 / 보유", `${summary.num_trades} / ${summary.num_open}`, 0],
+    ["최대 낙폭", fmtPct(summary.max_drawdown_pct), summary.max_drawdown_pct],
   ].map(([label, val, signed]) =>
     `<div class="card"><div>${label}</div><div class="big ${typeof signed === "number" && signed !== 0 ? cls(signed) : ""}">${val}</div></div>`
   ).join("");
@@ -48,7 +49,7 @@ async function loadSimulation() {
     type: "line",
     data: {
       labels: equity.map((p) => p.date),
-      datasets: [{ label: "Equity", data: equity.map((p) => p.equity),
+      datasets: [{ label: "누적 손익 ($)", data: equity.map((p) => p.pnl),
         borderColor: "#3fb950", backgroundColor: "rgba(63,185,80,.15)", fill: true, tension: .2 }],
     },
     options: { scales: { x: { ticks: { color: "#8b949e" } }, y: { ticks: { color: "#8b949e" } } },

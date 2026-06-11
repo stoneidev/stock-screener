@@ -863,10 +863,11 @@ The daily scan now also emits machine-readable JSON (`data/daily_scans/scan_*.js
 and runs a Top3 buy-signal trade simulation, surfaced as a GitHub Pages dashboard.
 
 - **Simulation policy:** each scan day, enter the top 3 BUY signals at the next
-  trading day's open; exit at the report's stop-loss or target (stop wins on a
-  same-day tie); hold until hit. Prices come from yfinance daily bars. Each
-  recommendation is tracked from its signal date through entry to either an open
-  (unrealized) or closed (realized) P&L.
+  trading day's open, buying a **fixed $200 per position** (no leverage). Exit at
+  the report's stop-loss or target (stop wins on a same-day tie); hold until hit.
+  Prices come from yfinance daily bars. Each recommendation is tracked from its
+  signal date through entry to either an open (unrealized) or closed (realized)
+  P&L. Returns are reported as cumulative P&L ($) and relative to capital invested.
 - **Run locally:**
   ```bash
   python scripts/backfill_scans.py     # one-time: rebuild history from GH artifacts

@@ -22,7 +22,7 @@ def test_target_hit_produces_profit():
         ("2026-06-04", 10, 10.5, 9.8, 10.2),   # entry open = 10
         ("2026-06-05", 10.5, 12.5, 10.4, 12.1),  # high >= target 12 -> exit at 12
     ])}
-    result = run_simulation(scans, lambda t: prices[t], initial_capital=99000, top_n=3)
+    result = run_simulation(scans, lambda t: prices[t], position_size=200, top_n=3)
     trades = result["trades"]
     assert len(trades) == 1
     t = trades[0]
@@ -44,7 +44,7 @@ def test_open_position_carries_signal_date_and_return():
         ("2026-06-04", 10, 11, 9, 10),          # entry open = 10
         ("2026-06-05", 10, 11, 9, 11),          # last close 11 -> +10% unrealized
     ])}
-    result = run_simulation(scans, lambda t: prices[t], initial_capital=99000, top_n=3)
+    result = run_simulation(scans, lambda t: prices[t], position_size=200, top_n=3)
     pos = result["open_positions"][0]
     assert pos["signal_date"] == "2026-06-03"
     assert pos["entry_date"] == "2026-06-04"
@@ -64,7 +64,7 @@ def test_stop_hit_produces_loss():
         ("2026-06-04", 10, 10.2, 9.9, 10),     # entry open = 10
         ("2026-06-05", 9.5, 9.6, 8.5, 8.7),    # low <= stop 9 -> exit at 9
     ])}
-    result = run_simulation(scans, lambda t: prices[t], initial_capital=99000, top_n=3)
+    result = run_simulation(scans, lambda t: prices[t], position_size=200, top_n=3)
     t = result["trades"][0]
     assert t["exit_price"] == 9.0
     assert t["exit_reason"] == "stop"
@@ -81,7 +81,7 @@ def test_same_day_stop_wins_over_target():
         ("2026-06-04", 10, 10, 10, 10),         # entry open = 10
         ("2026-06-05", 10, 11.5, 8.5, 9.0),     # both stop and target touched -> stop wins
     ])}
-    result = run_simulation(scans, lambda t: prices[t], initial_capital=99000, top_n=3)
+    result = run_simulation(scans, lambda t: prices[t], position_size=200, top_n=3)
     assert result["trades"][0]["exit_reason"] == "stop"
 
 
@@ -94,7 +94,7 @@ def test_unfilled_position_stays_open():
         ("2026-06-03", 10, 10, 10, 10),
         ("2026-06-04", 10, 11, 9, 10),          # entry, never hits stop/target
     ])}
-    result = run_simulation(scans, lambda t: prices[t], initial_capital=99000, top_n=3)
+    result = run_simulation(scans, lambda t: prices[t], position_size=200, top_n=3)
     assert result["trades"] == []
     assert len(result["open_positions"]) == 1
     assert result["open_positions"][0]["ticker"] == "DDD"
@@ -111,7 +111,7 @@ def test_top_n_limits_entries_and_skips_invalid():
         ],
     }]
     bars = make_prices([("2026-06-03", 10, 10, 10, 10), ("2026-06-04", 10, 10, 10, 10)])
-    result = run_simulation(scans, lambda t: bars, initial_capital=99000, top_n=3)
+    result = run_simulation(scans, lambda t: bars, position_size=200, top_n=3)
     entered = {p["ticker"] for p in result["open_positions"]}
     assert entered == {"A1", "A3", "A4"}  # A2 skipped, top_n filled from valid signals
 
@@ -129,11 +129,46 @@ def test_nan_bar_is_skipped_and_does_not_poison_equity():
         ("2026-06-05", 10, 11, 9, 10.5),                    # last valid close
         ("2026-06-08", float("nan"), float("nan"), float("nan"), float("nan")),  # partial day
     ])}
-    result = run_simulation(scans, lambda t: prices[t], initial_capital=99000, top_n=3)
+    result = run_simulation(scans, lambda t: prices[t], position_size=200, top_n=3)
     pos = result["open_positions"][0]
     assert pos["mark_price"] == 10.5          # last valid close, not NaN
     assert pos["unrealized_pnl"] == pos["unrealized_pnl"]  # not NaN
     assert result["summary"]["total_return_pct"] == result["summary"]["total_return_pct"]
+
+
+def test_position_size_is_fixed_dollar_amount():
+    # Each entry buys exactly $200 worth of shares (no leverage, no equal-split).
+    scans = [{
+        "scan_date": "2026-06-03",
+        "buys": [{"rank": 1, "ticker": "FIX", "score": 100, "stop_loss": 5.0, "target": 50.0}],
+    }]
+    prices = {"FIX": make_prices([
+        ("2026-06-03", 10, 10, 10, 10),
+        ("2026-06-04", 10, 11, 9, 10),          # entry open = 10 -> 20 shares for $200
+        ("2026-06-05", 10, 11, 9, 11),          # +10%
+    ])}
+    result = run_simulation(scans, lambda t: prices[t], position_size=200, top_n=3)
+    pos = result["open_positions"][0]
+    assert abs(pos["shares"] - 20.0) < 1e-9          # 200 / 10
+    assert abs(pos["cost_basis"] - 200.0) < 1e-9
+    assert abs(pos["unrealized_pnl"] - 20.0) < 1e-9  # +10% of $200
+
+
+def test_summary_return_is_relative_to_invested_capital():
+    # One $200 position that gains 10% -> total_return_pct ~ 10% (not vs a fixed 100k).
+    scans = [{
+        "scan_date": "2026-06-03",
+        "buys": [{"rank": 1, "ticker": "AAA", "score": 100, "stop_loss": 5.0, "target": 50.0}],
+    }]
+    prices = {"AAA": make_prices([
+        ("2026-06-03", 10, 10, 10, 10),
+        ("2026-06-04", 10, 11, 9, 10),
+        ("2026-06-05", 10, 11, 9, 11),          # +10% unrealized
+    ])}
+    result = run_simulation(scans, lambda t: prices[t], position_size=200, top_n=3)
+    s = result["summary"]
+    assert abs(s["invested_capital"] - 200.0) < 1e-9
+    assert abs(s["total_return_pct"] - 10.0) < 1e-6
 
 
 def test_summary_fields_present():
@@ -146,8 +181,9 @@ def test_summary_fields_present():
         ("2026-06-04", 10, 10, 10, 10),
         ("2026-06-05", 10.5, 12.5, 10.4, 12.1),
     ])}
-    result = run_simulation(scans, lambda t: prices[t], initial_capital=99000, top_n=3)
+    result = run_simulation(scans, lambda t: prices[t], position_size=200, top_n=3)
     s = result["summary"]
-    for key in ["total_return_pct", "win_rate", "num_trades", "max_drawdown_pct", "avg_pnl"]:
+    for key in ["total_return_pct", "win_rate", "num_trades", "max_drawdown_pct",
+                "avg_pnl", "invested_capital", "total_pnl"]:
         assert key in s
     assert len(result["equity_curve"]) >= 1
