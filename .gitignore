@@ -48,3 +48,6 @@ data/*
 !data/simulation/*.json
 # Keep local-only price cache out of git even though data/simulation/ is allowed
 data/simulation/price_cache/
+
+# Site data is assembled at deploy time by pages.yml; never commit the copy
+docs/site/data/
