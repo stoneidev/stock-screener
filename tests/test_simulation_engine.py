@@ -26,10 +26,32 @@ def test_target_hit_produces_profit():
     trades = result["trades"]
     assert len(trades) == 1
     t = trades[0]
+    assert t["signal_date"] == "2026-06-03"   # the recommendation date
+    assert t["entry_date"] == "2026-06-04"     # bought next trading day's open
     assert t["entry_price"] == 10
     assert t["exit_price"] == 12.0
     assert t["exit_reason"] == "target"
     assert t["pnl"] > 0
+
+
+def test_open_position_carries_signal_date_and_return():
+    scans = [{
+        "scan_date": "2026-06-03",
+        "buys": [{"rank": 1, "ticker": "HOLD", "score": 100, "stop_loss": 5.0, "target": 50.0}],
+    }]
+    prices = {"HOLD": make_prices([
+        ("2026-06-03", 10, 10, 10, 10),
+        ("2026-06-04", 10, 11, 9, 10),          # entry open = 10
+        ("2026-06-05", 10, 11, 9, 11),          # last close 11 -> +10% unrealized
+    ])}
+    result = run_simulation(scans, lambda t: prices[t], initial_capital=99000, top_n=3)
+    pos = result["open_positions"][0]
+    assert pos["signal_date"] == "2026-06-03"
+    assert pos["entry_date"] == "2026-06-04"
+    assert pos["entry_price"] == 10
+    assert pos["mark_price"] == 11
+    assert abs(pos["unrealized_pnl_pct"] - 10.0) < 1e-6
+    assert pos["status"] == "open"
 
 
 def test_stop_hit_produces_loss():

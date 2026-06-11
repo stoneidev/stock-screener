@@ -53,7 +53,8 @@ def run_simulation(
                 continue
             shares = position_dollars / entry_px
             open_positions[ticker] = {
-                "ticker": ticker, "entry_date": str(entry_day.date()),
+                "ticker": ticker, "signal_date": scan["scan_date"],
+                "entry_date": str(entry_day.date()),
                 "entry_price": entry_px, "shares": shares,
                 "stop_loss": buy["stop_loss"], "target": buy["target"],
                 "score": buy.get("score"),
@@ -84,9 +85,14 @@ def run_simulation(
     # Mark remaining open positions to last close.
     open_list = []
     for ticker, pos in open_positions.items():
-        mark = last_close.get(ticker, (pos["entry_date"], pos["entry_price"]))[1]
+        marked = last_close.get(ticker, (pos["entry_date"], pos["entry_price"]))
+        mark_date, mark = marked
         unreal = (mark - pos["entry_price"]) * pos["shares"]
-        open_list.append({**pos, "mark_price": mark, "unrealized_pnl": unreal})
+        unreal_pct = (mark / pos["entry_price"] - 1) * 100
+        open_list.append({
+            **pos, "status": "open", "mark_date": mark_date, "mark_price": mark,
+            "unrealized_pnl": unreal, "unrealized_pnl_pct": unreal_pct,
+        })
 
     equity_curve = _build_equity_curve(trades, open_list, initial_capital)
     summary = _build_summary(trades, open_list, initial_capital, equity_curve)
@@ -102,10 +108,12 @@ def _record_exit(trades, pos, ts, exit_price, reason):
     pnl = (exit_price - pos["entry_price"]) * pos["shares"]
     pnl_pct = (exit_price / pos["entry_price"] - 1) * 100
     trades.append({
-        "ticker": pos["ticker"], "entry_date": pos["entry_date"],
-        "entry_price": pos["entry_price"], "exit_date": str(ts.date()),
-        "exit_price": exit_price, "shares": pos["shares"],
-        "pnl": pnl, "pnl_pct": pnl_pct, "exit_reason": reason,
+        "ticker": pos["ticker"], "signal_date": pos["signal_date"],
+        "entry_date": pos["entry_date"], "entry_price": pos["entry_price"],
+        "exit_date": str(ts.date()), "exit_price": exit_price,
+        "shares": pos["shares"], "pnl": pnl, "pnl_pct": pnl_pct,
+        "exit_reason": reason, "status": "closed",
+        "stop_loss": pos["stop_loss"], "target": pos["target"],
         "score": pos.get("score"),
     })
 

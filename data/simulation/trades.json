@@ -1,6 +1,7 @@
 [
   {
     "ticker": "SWBI",
+    "signal_date": "2026-06-03",
     "entry_date": "2026-06-04",
     "entry_price": 14.890000343322754,
     "exit_date": "2026-06-05",
@@ -9,10 +10,14 @@
     "pnl": -111.93271137202295,
     "pnl_pct": -0.33579813411607207,
     "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 14.84,
+    "target": 19.66,
     "score": 111.7
   },
   {
     "ticker": "CMP",
+    "signal_date": "2026-06-04",
     "entry_date": "2026-06-05",
     "entry_price": 30.780000686645508,
     "exit_date": "2026-06-09",
@@ -21,10 +26,14 @@
     "pnl": -2035.9547809249873,
     "pnl_pct": -6.10786434277496,
     "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 28.9,
+    "target": 40.9,
     "score": 113.7
   },
   {
     "ticker": "SCCO",
+    "signal_date": "2026-06-04",
     "entry_date": "2026-06-05",
     "entry_price": 186.8699951171875,
     "exit_date": "2026-06-08",
@@ -33,10 +42,14 @@
     "pnl": -1582.2042683783206,
     "pnl_pct": -4.746612805134964,
     "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 178.0,
+    "target": 250.49,
     "score": 112.0
   },
   {
     "ticker": "LSCC",
+    "signal_date": "2026-06-05",
     "entry_date": "2026-06-08",
     "entry_price": 141.13999938964844,
     "exit_date": "2026-06-09",
@@ -45,10 +58,14 @@
     "pnl": -1421.7560379012716,
     "pnl_pct": -4.265268113703813,
     "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 135.12,
+    "target": 181.09,
     "score": 118.7
   },
   {
     "ticker": "CLFD",
+    "signal_date": "2026-06-05",
     "entry_date": "2026-06-08",
     "entry_price": 41.22999954223633,
     "exit_date": "2026-06-09",
@@ -57,6 +74,9 @@
     "pnl": -945.9128104345231,
     "pnl_pct": -2.8377384313035714,
     "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 40.06,
+    "target": 53.690000000000005,
     "score": 113.5
   }
 ]
