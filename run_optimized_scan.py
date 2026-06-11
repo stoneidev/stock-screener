@@ -22,6 +22,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+from src.simulation.json_writer import write_scan_json, rebuild_index
 from src.data.universe_fetcher import USStockUniverseFetcher
 from src.screening.optimized_batch_processor import OptimizedBatchProcessor
 from src.screening.benchmark import (
@@ -275,6 +276,49 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
         f.write(report_text)
 
     logger.info(f"Report saved: {filepath}")
+
+    # --- Structured JSON output (for Pages + simulation) ---
+    def _buy_to_json(rank, s):
+        details = s.get('details', {}) or {}
+        breakout = s.get('breakout_price')
+        reward = details.get('reward_amount')
+        risk = details.get('risk_amount')
+        stop = s.get('stop_loss')
+        if breakout is not None and reward is not None:
+            target = breakout + reward
+        elif stop is not None and risk is not None and reward is not None:
+            target = stop + risk + reward
+        else:
+            target = None
+        return {
+            "rank": rank, "ticker": s.get('ticker'), "score": s.get('score'),
+            "phase": s.get('phase'), "entry_quality": s.get('entry_quality'),
+            "stop_loss": stop, "breakout": breakout,
+            "risk_amount": risk, "reward_amount": reward,
+            "rr_ratio": s.get('risk_reward_ratio'), "target": target,
+            "rs_slope": details.get('rs_slope'), "volume_ratio": details.get('volume_ratio'),
+            "reasons": list(s.get('reasons', []))[:7],
+        }
+
+    def _sell_to_json(rank, s):
+        return {
+            "rank": rank, "ticker": s.get('ticker'), "score": s.get('score'),
+            "phase": s.get('phase'), "severity": s.get('severity'),
+            "breakdown_level": s.get('breakdown_level'),
+        }
+
+    parsed = {
+        "scan_date": date_str,
+        "generated_at": datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+        "market": {
+            "spy_phase": spy_analysis.get('phase') if isinstance(spy_analysis, dict) else None,
+        },
+        "buys": [_buy_to_json(i, s) for i, s in enumerate(buy_signals, 1)],
+        "sells": [_sell_to_json(i, s) for i, s in enumerate(sell_signals, 1)],
+    }
+    write_scan_json(parsed, output_dir=output_dir)
+    rebuild_index(output_dir=output_dir)
+
     print(report_text)
 
     return filepath
