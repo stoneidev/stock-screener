@@ -66,8 +66,10 @@ def run_simulation(
         future = bars_after(df, pos["entry_date"])
         exited = False
         for ts, row in future.iterrows():
-            last_close[ticker] = (str(ts.date()), float(row["Close"]))
-            low, high = float(row["Low"]), float(row["High"])
+            low, high, close = float(row["Low"]), float(row["High"]), float(row["Close"])
+            if low != low or high != high or close != close:  # skip NaN bars (partial day)
+                continue
+            last_close[ticker] = (str(ts.date()), close)
             if low <= pos["stop_loss"]:                # stop wins on tie
                 _record_exit(trades, pos, ts, pos["stop_loss"], "stop")
                 exited = True

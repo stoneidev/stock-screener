@@ -94,6 +94,26 @@ def test_top_n_limits_entries_and_skips_invalid():
     assert entered == {"A1", "A3", "A4"}  # A2 skipped, top_n filled from valid signals
 
 
+def test_nan_bar_is_skipped_and_does_not_poison_equity():
+    # yfinance can return a partial (NaN) bar for the current day; it must not
+    # trigger an exit nor produce NaN equity for an open position.
+    scans = [{
+        "scan_date": "2026-06-03",
+        "buys": [{"rank": 1, "ticker": "EEE", "score": 100, "stop_loss": 5.0, "target": 50.0}],
+    }]
+    prices = {"EEE": make_prices([
+        ("2026-06-03", 10, 10, 10, 10),
+        ("2026-06-04", 10, 11, 9, 10.2),                    # entry open = 10
+        ("2026-06-05", 10, 11, 9, 10.5),                    # last valid close
+        ("2026-06-08", float("nan"), float("nan"), float("nan"), float("nan")),  # partial day
+    ])}
+    result = run_simulation(scans, lambda t: prices[t], initial_capital=99000, top_n=3)
+    pos = result["open_positions"][0]
+    assert pos["mark_price"] == 10.5          # last valid close, not NaN
+    assert pos["unrealized_pnl"] == pos["unrealized_pnl"]  # not NaN
+    assert result["summary"]["total_return_pct"] == result["summary"]["total_return_pct"]
+
+
 def test_summary_fields_present():
     scans = [{
         "scan_date": "2026-06-03",
