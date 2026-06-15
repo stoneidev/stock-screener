@@ -7176,8 +7176,8 @@
     "in_earnings_season": true
   },
   "LUCK": {
-    "last_updated": "2026-01-23T13:38:36.538343",
-    "in_earnings_season": true
+    "last_updated": "2026-06-15T17:58:55.800928",
+    "in_earnings_season": false
   },
   "RGA": {
     "last_updated": "2026-05-11T16:17:26.673021",
@@ -7572,8 +7572,8 @@
     "in_earnings_season": true
   },
   "GIS": {
-    "last_updated": "2026-02-09T13:51:15.706733",
-    "in_earnings_season": true
+    "last_updated": "2026-06-15T17:48:47.812937",
+    "in_earnings_season": false
   },
   "PAYX": {
     "last_updated": "2026-05-15T15:08:58.255691",
@@ -9569,6 +9569,14 @@
   },
   "SPKL": {
     "last_updated": "2026-06-12T16:24:29.707609",
+    "in_earnings_season": false
+  },
+  "BLZE": {
+    "last_updated": "2026-06-15T17:32:52.581094",
+    "in_earnings_season": false
+  },
+  "FNRN": {
+    "last_updated": "2026-06-15T17:46:49.616469",
     "in_earnings_season": false
   }
 }
