@@ -8,6 +8,12 @@ on:
       - 'data/daily_scans/*.json'
       - 'data/simulation/*.json'
       - '.github/workflows/pages.yml'
+  # Deploy after the daily screening run finishes. Commits pushed by that
+  # workflow use the default GITHUB_TOKEN, which does NOT fire the `push`
+  # trigger above, so we chain off its completion instead.
+  workflow_run:
+    workflows: ["Daily Stock Screening (Git-Based Storage)"]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -22,6 +28,9 @@ concurrency:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+    # For workflow_run triggers, only deploy when the upstream run succeeded.
+    # push / workflow_dispatch always proceed.
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
