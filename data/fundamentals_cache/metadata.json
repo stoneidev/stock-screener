@@ -7316,8 +7316,8 @@
     "in_earnings_season": false
   },
   "ALG": {
-    "last_updated": "2026-02-10T13:44:58.486068",
-    "in_earnings_season": true
+    "last_updated": "2026-06-19T15:37:50.419200",
+    "in_earnings_season": false
   },
   "BATRK": {
     "last_updated": "2026-05-11T15:36:17.443534",
@@ -9597,6 +9597,18 @@
   },
   "VITL": {
     "last_updated": "2026-06-17T16:52:53.963066",
+    "in_earnings_season": false
+  },
+  "DKL": {
+    "last_updated": "2026-06-19T15:52:16.397790",
+    "in_earnings_season": false
+  },
+  "GLP": {
+    "last_updated": "2026-06-19T15:59:53.451910",
+    "in_earnings_season": false
+  },
+  "NTHI": {
+    "last_updated": "2026-06-19T16:15:25.513779",
     "in_earnings_season": false
   }
 }
