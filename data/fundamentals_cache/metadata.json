@@ -604,8 +604,8 @@
     "in_earnings_season": true
   },
   "ATEC": {
-    "last_updated": "2026-02-09T13:32:06.384259",
-    "in_earnings_season": true
+    "last_updated": "2026-06-22T17:13:22.386182",
+    "in_earnings_season": false
   },
   "ATEN": {
     "last_updated": "2026-05-11T15:35:03.370015",
@@ -5784,8 +5784,8 @@
     "in_earnings_season": true
   },
   "SMHI": {
-    "last_updated": "2026-02-09T14:18:55.705797",
-    "in_earnings_season": true
+    "last_updated": "2026-06-22T18:00:08.882299",
+    "in_earnings_season": false
   },
   "SMP": {
     "last_updated": "2026-05-11T16:21:44.919889",
@@ -9609,6 +9609,10 @@
   },
   "NTHI": {
     "last_updated": "2026-06-19T16:15:25.513779",
+    "in_earnings_season": false
+  },
+  "NWL": {
+    "last_updated": "2026-06-22T17:48:47.007511",
     "in_earnings_season": false
   }
 }
