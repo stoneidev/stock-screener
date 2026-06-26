@@ -5088,7 +5088,7 @@
     "in_earnings_season": true
   },
   "PODD": {
-    "last_updated": "2025-12-04T14:07:09.872209",
+    "last_updated": "2026-06-26T15:23:50.532424",
     "in_earnings_season": false
   },
   "POWL": {
@@ -7708,8 +7708,8 @@
     "in_earnings_season": true
   },
   "KNSL": {
-    "last_updated": "2026-02-13T13:50:41.581150",
-    "in_earnings_season": true
+    "last_updated": "2026-06-26T15:10:31.364833",
+    "in_earnings_season": false
   },
   "VRRM": {
     "last_updated": "2026-01-15T14:02:23.076362",
@@ -9000,7 +9000,7 @@
     "in_earnings_season": true
   },
   "NPK": {
-    "last_updated": "2026-03-27T14:03:20.167949",
+    "last_updated": "2026-06-26T15:18:29.515909",
     "in_earnings_season": false
   },
   "SMC": {
@@ -9633,6 +9633,10 @@
   },
   "THFF": {
     "last_updated": "2026-06-25T15:41:45.533995",
+    "in_earnings_season": false
+  },
+  "PGEN": {
+    "last_updated": "2026-06-26T15:22:59.326535",
     "in_earnings_season": false
   }
 }

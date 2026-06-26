@@ -134,5 +134,39 @@
     "stop_loss": 36.94,
     "target": 52.73,
     "score": 112.7
+  },
+  {
+    "ticker": "ECO",
+    "signal_date": "2026-06-19",
+    "entry_date": "2026-06-22",
+    "entry_price": 52.47999954223633,
+    "exit_date": "2026-06-26",
+    "exit_price": 50.41,
+    "shares": 3.8109756429978314,
+    "cost_basis": 200.0,
+    "pnl": -7.88871783647932,
+    "pnl_pct": -3.9443589182396654,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 50.41,
+    "target": 68.22,
+    "score": 112.5
+  },
+  {
+    "ticker": "FORM",
+    "signal_date": "2026-06-24",
+    "entry_date": "2026-06-25",
+    "entry_price": 151.0,
+    "exit_date": "2026-06-26",
+    "exit_price": 133.42,
+    "shares": 1.3245033112582782,
+    "cost_basis": 200.0,
+    "pnl": -23.284768211920547,
+    "pnl_pct": -11.642384105960268,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 133.42,
+    "target": 184.94,
+    "score": 110.7
   }
 ]
