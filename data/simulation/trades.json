@@ -102,6 +102,23 @@
     "score": 111.5
   },
   {
+    "ticker": "SANM",
+    "signal_date": "2026-06-09",
+    "entry_date": "2026-06-10",
+    "entry_price": 237.44000244140625,
+    "exit_date": "2026-06-29",
+    "exit_price": 232.16,
+    "shares": 0.8423180506383063,
+    "cost_basis": 200.0,
+    "pnl": -4.447441363810814,
+    "pnl_pct": -2.2237206819054056,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 232.16,
+    "target": 311.14,
+    "score": 115.5
+  },
+  {
     "ticker": "LCUT",
     "signal_date": "2026-06-10",
     "entry_date": "2026-06-11",
