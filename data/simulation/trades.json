@@ -185,5 +185,22 @@
     "stop_loss": 133.42,
     "target": 184.94,
     "score": 110.7
+  },
+  {
+    "ticker": "M",
+    "signal_date": "2026-06-29",
+    "entry_date": "2026-06-30",
+    "entry_price": 24.229999542236328,
+    "exit_date": "2026-07-01",
+    "exit_price": 23.39,
+    "shares": 8.254230448967679,
+    "cost_basis": 200.0,
+    "pnl": -6.933549798646006,
+    "pnl_pct": -3.4667748993229996,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 23.39,
+    "target": 31.59,
+    "score": 116.3
   }
 ]

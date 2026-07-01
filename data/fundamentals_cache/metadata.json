@@ -964,8 +964,8 @@
     "in_earnings_season": true
   },
   "BL": {
-    "last_updated": "2026-02-09T13:35:00.398849",
-    "in_earnings_season": true
+    "last_updated": "2026-07-01T14:59:04.769394",
+    "in_earnings_season": false
   },
   "BLBD": {
     "last_updated": "2026-05-11T15:37:57.572353",
@@ -1288,8 +1288,8 @@
     "in_earnings_season": true
   },
   "CELH": {
-    "last_updated": "2026-02-09T13:38:21.393450",
-    "in_earnings_season": true
+    "last_updated": "2026-07-01T15:02:27.700616",
+    "in_earnings_season": false
   },
   "CENTA": {
     "last_updated": "2026-05-11T15:41:23.698742",
@@ -1792,7 +1792,7 @@
     "in_earnings_season": true
   },
   "CXM": {
-    "last_updated": "2026-03-30T14:08:12.760203",
+    "last_updated": "2026-07-01T15:06:32.776369",
     "in_earnings_season": false
   },
   "CXT": {
@@ -3536,8 +3536,8 @@
     "in_earnings_season": true
   },
   "JKHY": {
-    "last_updated": "2026-02-13T13:49:39.676508",
-    "in_earnings_season": true
+    "last_updated": "2026-07-01T15:21:39.056403",
+    "in_earnings_season": false
   },
   "JLL": {
     "last_updated": "2026-05-11T16:00:25.623444",
@@ -6372,8 +6372,8 @@
     "in_earnings_season": true
   },
   "TSCO": {
-    "last_updated": "2026-02-10T14:39:37.955510",
-    "in_earnings_season": true
+    "last_updated": "2026-07-01T15:47:42.351226",
+    "in_earnings_season": false
   },
   "TSLX": {
     "last_updated": "2026-05-04T15:18:23.169203",
@@ -6840,8 +6840,8 @@
     "in_earnings_season": false
   },
   "WK": {
-    "last_updated": "2026-02-09T14:28:24.943812",
-    "in_earnings_season": true
+    "last_updated": "2026-07-01T15:52:02.968976",
+    "in_earnings_season": false
   },
   "WLDN": {
     "last_updated": "2026-05-15T15:26:52.248558",
@@ -7408,8 +7408,8 @@
     "in_earnings_season": true
   },
   "MZTI": {
-    "last_updated": "2026-01-30T13:52:07.926632",
-    "in_earnings_season": true
+    "last_updated": "2026-07-01T15:29:12.095831",
+    "in_earnings_season": false
   },
   "PCTY": {
     "last_updated": "2026-05-11T16:13:14.419601",
@@ -9701,6 +9701,10 @@
   },
   "VIA": {
     "last_updated": "2026-06-30T15:33:07.453259",
+    "in_earnings_season": false
+  },
+  "MQ": {
+    "last_updated": "2026-07-01T15:28:05.811736",
     "in_earnings_season": false
   }
 }
