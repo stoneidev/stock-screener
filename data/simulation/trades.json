@@ -1,5 +1,22 @@
 [
   {
+    "ticker": "TEO",
+    "signal_date": "2026-06-03",
+    "entry_date": "2026-06-04",
+    "entry_price": 13.229999542236328,
+    "exit_date": "2026-07-01",
+    "exit_price": 12.47,
+    "shares": 15.117158497360997,
+    "cost_basis": 200.0,
+    "pnl": -11.489033537908366,
+    "pnl_pct": -5.744516768954178,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 12.47,
+    "target": 18.020000000000003,
+    "score": 112.8
+  },
+  {
     "ticker": "SWBI",
     "signal_date": "2026-06-03",
     "entry_date": "2026-06-04",
@@ -168,6 +185,23 @@
     "stop_loss": 50.41,
     "target": 68.22,
     "score": 112.5
+  },
+  {
+    "ticker": "ECG",
+    "signal_date": "2026-06-23",
+    "entry_date": "2026-06-24",
+    "entry_price": 157.22999572753906,
+    "exit_date": "2026-07-02",
+    "exit_price": 146.58,
+    "shares": 1.2720219133413722,
+    "cost_basis": 200.0,
+    "pnl": -13.54702794242166,
+    "pnl_pct": -6.773513971210832,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 146.58,
+    "target": 204.0,
+    "score": 114.9
   },
   {
     "ticker": "FORM",
