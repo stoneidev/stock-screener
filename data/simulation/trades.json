@@ -153,6 +153,23 @@
     "score": 113.7
   },
   {
+    "ticker": "PTGX",
+    "signal_date": "2026-06-11",
+    "entry_date": "2026-06-12",
+    "entry_price": 109.8499984741211,
+    "exit_date": "2026-07-07",
+    "exit_price": 138.48,
+    "shares": 1.8206645678480988,
+    "cost_basis": 200.0,
+    "pnl": 52.12562935560471,
+    "pnl_pct": 26.062814677802358,
+    "exit_reason": "target",
+    "status": "closed",
+    "stop_loss": 100.46,
+    "target": 138.48,
+    "score": 111.3
+  },
+  {
     "ticker": "GCO",
     "signal_date": "2026-06-15",
     "entry_date": "2026-06-16",
