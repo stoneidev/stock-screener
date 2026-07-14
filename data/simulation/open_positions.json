@@ -10,10 +10,10 @@
     "target": 84.89999999999999,
     "score": 113.0,
     "status": "open",
-    "mark_date": "2026-07-13",
-    "mark_price": 70.51000213623047,
-    "unrealized_pnl": 14.936751959443857,
-    "unrealized_pnl_pct": 7.46837597972192
+    "mark_date": "2026-07-14",
+    "mark_price": 71.4000015258789,
+    "unrealized_pnl": 17.649751140571798,
+    "unrealized_pnl_pct": 8.824875570285906
   },
   {
     "ticker": "TIGO",
@@ -26,10 +26,10 @@
     "target": 114.10000000000001,
     "score": 111.5,
     "status": "open",
-    "mark_date": "2026-07-13",
-    "mark_price": 96.5999984741211,
-    "unrealized_pnl": 24.129934789031303,
-    "unrealized_pnl_pct": 12.064967394515659
+    "mark_date": "2026-07-14",
+    "mark_price": 98.5,
+    "unrealized_pnl": 28.538291153637072,
+    "unrealized_pnl_pct": 14.26914557681853
   },
   {
     "ticker": "MSGS",
@@ -42,10 +42,10 @@
     "target": 500.63,
     "score": 113.3,
     "status": "open",
-    "mark_date": "2026-07-13",
-    "mark_price": 389.1099853515625,
-    "unrealized_pnl": 1.6166197031653715,
-    "unrealized_pnl_pct": 0.8083098515826892
+    "mark_date": "2026-07-14",
+    "mark_price": 387.4849853515625,
+    "unrealized_pnl": 0.7746289567145157,
+    "unrealized_pnl_pct": 0.38731447835724797
   },
   {
     "ticker": "RL",
@@ -58,10 +58,10 @@
     "target": 490.65999999999997,
     "score": 115.6,
     "status": "open",
-    "mark_date": "2026-07-13",
-    "mark_price": 377.0799865722656,
-    "unrealized_pnl": -5.864038207658893,
-    "unrealized_pnl_pct": -2.932019103829442
+    "mark_date": "2026-07-14",
+    "mark_price": 373.45001220703125,
+    "unrealized_pnl": -7.732895187002357,
+    "unrealized_pnl_pct": -3.8664475935011766
   },
   {
     "ticker": "MOV",
@@ -74,10 +74,10 @@
     "target": 47.03,
     "score": 112.2,
     "status": "open",
-    "mark_date": "2026-07-13",
-    "mark_price": 38.404998779296875,
-    "unrealized_pnl": 10.84270358263212,
-    "unrealized_pnl_pct": 5.421351791316065
+    "mark_date": "2026-07-14",
+    "mark_price": 38.040000915527344,
+    "unrealized_pnl": 8.838872340732987,
+    "unrealized_pnl_pct": 4.419436170366486
   },
   {
     "ticker": "ALRS",
@@ -90,10 +90,10 @@
     "target": 38.43,
     "score": 112.6,
     "status": "open",
-    "mark_date": "2026-07-13",
-    "mark_price": 31.209999084472656,
-    "unrealized_pnl": 8.136040831380141,
-    "unrealized_pnl_pct": 4.068020415690077
+    "mark_date": "2026-07-14",
+    "mark_price": 31.43000030517578,
+    "unrealized_pnl": 9.603204701884714,
+    "unrealized_pnl_pct": 4.801602350942358
   },
   {
     "ticker": "SPG",
@@ -106,10 +106,10 @@
     "target": 268.8,
     "score": 116.3,
     "status": "open",
-    "mark_date": "2026-07-13",
-    "mark_price": 219.5,
-    "unrealized_pnl": 3.4102423787363954,
-    "unrealized_pnl_pct": 1.7051211893682083
+    "mark_date": "2026-07-14",
+    "mark_price": 220.89999389648438,
+    "unrealized_pnl": 4.707614122757526,
+    "unrealized_pnl_pct": 2.3538070613787543
   },
   {
     "ticker": "SENEA",
@@ -122,10 +122,10 @@
     "target": 201.72999999999996,
     "score": 113.9,
     "status": "open",
-    "mark_date": "2026-07-13",
-    "mark_price": 175.60000610351562,
-    "unrealized_pnl": 27.269795496874874,
-    "unrealized_pnl_pct": 13.634897748437446
+    "mark_date": "2026-07-14",
+    "mark_price": 172.92999267578125,
+    "unrealized_pnl": 23.814138409155944,
+    "unrealized_pnl_pct": 11.90706920457798
   },
   {
     "ticker": "BNY",
@@ -138,10 +138,10 @@
     "target": 179.54,
     "score": 108.9,
     "status": "open",
-    "mark_date": "2026-07-13",
-    "mark_price": 150.88999938964844,
-    "unrealized_pnl": 8.081087581430886,
-    "unrealized_pnl_pct": 4.040543790715434
+    "mark_date": "2026-07-14",
+    "mark_price": 153.77000427246094,
+    "unrealized_pnl": 12.052686432776422,
+    "unrealized_pnl_pct": 6.026343216388219
   },
   {
     "ticker": "ANAB",
@@ -154,10 +154,10 @@
     "target": 74.44,
     "score": 114.6,
     "status": "open",
-    "mark_date": "2026-07-13",
-    "mark_price": 69.27749633789062,
-    "unrealized_pnl": 35.03815247257414,
-    "unrealized_pnl_pct": 17.519076236287077
+    "mark_date": "2026-07-14",
+    "mark_price": 66.9749984741211,
+    "unrealized_pnl": 27.226454986669914,
+    "unrealized_pnl_pct": 13.613227493334957
   },
   {
     "ticker": "WELL",
@@ -170,10 +170,10 @@
     "target": 285.32,
     "score": 112.7,
     "status": "open",
-    "mark_date": "2026-07-13",
-    "mark_price": 233.50999450683594,
-    "unrealized_pnl": 10.673044227637352,
-    "unrealized_pnl_pct": 5.336522113818676
+    "mark_date": "2026-07-14",
+    "mark_price": 234.8699951171875,
+    "unrealized_pnl": 11.900038683867452,
+    "unrealized_pnl_pct": 5.950019341933732
   },
   {
     "ticker": "NAT",
@@ -186,10 +186,10 @@
     "target": 7.5,
     "score": 116.3,
     "status": "open",
-    "mark_date": "2026-07-13",
-    "mark_price": 6.13129997253418,
-    "unrealized_pnl": 22.551713896332316,
-    "unrealized_pnl_pct": 11.275856948166151
+    "mark_date": "2026-07-14",
+    "mark_price": 6.335000038146973,
+    "unrealized_pnl": 29.945545371875852,
+    "unrealized_pnl_pct": 14.97277268593793
   },
   {
     "ticker": "NTST",
@@ -202,10 +202,10 @@
     "target": 27.02,
     "score": 113.4,
     "status": "open",
-    "mark_date": "2026-07-13",
-    "mark_price": 21.6200008392334,
-    "unrealized_pnl": 4.058520947035027,
-    "unrealized_pnl_pct": 2.0292604735175246
+    "mark_date": "2026-07-14",
+    "mark_price": 21.510000228881836,
+    "unrealized_pnl": 3.0202896343480448,
+    "unrealized_pnl_pct": 1.5101448171740195
   },
   {
     "ticker": "TMP",
@@ -218,10 +218,10 @@
     "target": 116.26,
     "score": 121.2,
     "status": "open",
-    "mark_date": "2026-07-13",
-    "mark_price": 91.06500244140625,
-    "unrealized_pnl": -6.512259431518096,
-    "unrealized_pnl_pct": -3.2561297157590485
+    "mark_date": "2026-07-14",
+    "mark_price": 92.37999725341797,
+    "unrealized_pnl": -3.7182620866090703,
+    "unrealized_pnl_pct": -1.8591310433045405
   },
   {
     "ticker": "AMD",
@@ -234,10 +234,10 @@
     "target": 659.87,
     "score": 114.2,
     "status": "open",
-    "mark_date": "2026-07-13",
-    "mark_price": 543.1900024414062,
-    "unrealized_pnl": 15.205722972377423,
-    "unrealized_pnl_pct": 7.602861486188717
+    "mark_date": "2026-07-14",
+    "mark_price": 557.0,
+    "unrealized_pnl": 20.6770874958151,
+    "unrealized_pnl_pct": 10.338543747907547
   },
   {
     "ticker": "GBCI",
@@ -250,10 +250,10 @@
     "target": 64.39,
     "score": 113.2,
     "status": "open",
-    "mark_date": "2026-07-13",
-    "mark_price": 51.43000030517578,
-    "unrealized_pnl": -1.7729777987410102,
-    "unrealized_pnl_pct": -0.8864888993705078
+    "mark_date": "2026-07-14",
+    "mark_price": 51.994998931884766,
+    "unrealized_pnl": 0.4047004951681481,
+    "unrealized_pnl_pct": 0.20235024758408215
   },
   {
     "ticker": "CTRN",
@@ -266,10 +266,10 @@
     "target": 72.85,
     "score": 112.7,
     "status": "open",
-    "mark_date": "2026-07-13",
-    "mark_price": 58.54499816894531,
-    "unrealized_pnl": 8.790999491464412,
-    "unrealized_pnl_pct": 4.395499745732212
+    "mark_date": "2026-07-14",
+    "mark_price": 61.96500015258789,
+    "unrealized_pnl": 20.987867793807183,
+    "unrealized_pnl_pct": 10.493933896903584
   },
   {
     "ticker": "BBY",
@@ -282,10 +282,10 @@
     "target": 104.21,
     "score": 113.1,
     "status": "open",
-    "mark_date": "2026-07-13",
-    "mark_price": 82.43499755859375,
-    "unrealized_pnl": 4.604109420171709,
-    "unrealized_pnl_pct": 2.3020547100858657
+    "mark_date": "2026-07-14",
+    "mark_price": 81.87000274658203,
+    "unrealized_pnl": 3.201789243519701,
+    "unrealized_pnl_pct": 1.6008946217598519
   },
   {
     "ticker": "ASND",
@@ -298,10 +298,10 @@
     "target": 351.90999999999997,
     "score": 116.7,
     "status": "open",
-    "mark_date": "2026-07-13",
-    "mark_price": 267.0199890136719,
-    "unrealized_pnl": 0.0,
-    "unrealized_pnl_pct": 0.0
+    "mark_date": "2026-07-14",
+    "mark_price": 266.4599914550781,
+    "unrealized_pnl": -0.4194424250126661,
+    "unrealized_pnl_pct": -0.2097212125063308
   },
   {
     "ticker": "BCRX",
@@ -314,9 +314,9 @@
     "target": 13.459999999999999,
     "score": 113.7,
     "status": "open",
-    "mark_date": "2026-07-13",
-    "mark_price": 10.130000114440918,
-    "unrealized_pnl": 0.0,
-    "unrealized_pnl_pct": 0.0
+    "mark_date": "2026-07-14",
+    "mark_price": 9.805000305175781,
+    "unrealized_pnl": -6.416580564531882,
+    "unrealized_pnl_pct": -3.2082902822659465
   }
 ]
