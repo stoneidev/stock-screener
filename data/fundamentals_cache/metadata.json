@@ -1164,7 +1164,7 @@
     "in_earnings_season": true
   },
   "CALX": {
-    "last_updated": "2026-04-17T13:58:33.008602",
+    "last_updated": "2026-07-20T14:33:11.717796",
     "in_earnings_season": true
   },
   "CARG": {
@@ -5232,7 +5232,7 @@
     "in_earnings_season": false
   },
   "QLYS": {
-    "last_updated": "2026-05-04T15:07:58.071187",
+    "last_updated": "2026-07-20T15:09:14.707629",
     "in_earnings_season": true
   },
   "QNST": {
@@ -6124,7 +6124,7 @@
     "in_earnings_season": true
   },
   "TECH": {
-    "last_updated": "2026-05-01T14:39:38.335255",
+    "last_updated": "2026-07-20T15:17:40.165635",
     "in_earnings_season": true
   },
   "TECX": {
@@ -6244,7 +6244,7 @@
     "in_earnings_season": true
   },
   "TLK": {
-    "last_updated": "2026-02-13T14:14:51.021599",
+    "last_updated": "2026-07-20T15:18:20.262379",
     "in_earnings_season": true
   },
   "TLN": {
@@ -7484,7 +7484,7 @@
     "in_earnings_season": true
   },
   "TNET": {
-    "last_updated": "2026-05-11T16:25:42.925637",
+    "last_updated": "2026-07-20T15:18:39.370549",
     "in_earnings_season": true
   },
   "ABT": {
@@ -8432,7 +8432,7 @@
     "in_earnings_season": true
   },
   "RH": {
-    "last_updated": "2026-05-08T14:54:50.043937",
+    "last_updated": "2026-07-20T15:10:39.259435",
     "in_earnings_season": true
   },
   "RHI": {
@@ -8880,12 +8880,12 @@
     "in_earnings_season": true
   },
   "RCEL": {
-    "last_updated": "2026-04-17T14:35:21.492234",
+    "last_updated": "2026-07-20T15:09:52.967496",
     "in_earnings_season": true
   },
   "BFC": {
-    "last_updated": "2026-06-10T16:02:07.505773",
-    "in_earnings_season": false
+    "last_updated": "2026-07-20T14:30:16.841474",
+    "in_earnings_season": true
   },
   "ACTG": {
     "last_updated": "2026-05-01T13:45:32.906637",
@@ -9752,8 +9752,8 @@
     "in_earnings_season": true
   },
   "INTG": {
-    "last_updated": "2026-07-10T15:12:47.076789",
-    "in_earnings_season": false
+    "last_updated": "2026-07-20T14:52:11.893313",
+    "in_earnings_season": true
   },
   "BRCB": {
     "last_updated": "2026-07-13T14:59:42.378689",
@@ -9773,6 +9773,10 @@
   },
   "DLHC": {
     "last_updated": "2026-07-17T14:10:20.055468",
+    "in_earnings_season": true
+  },
+  "NP": {
+    "last_updated": "2026-07-20T15:02:25.868332",
     "in_earnings_season": true
   }
 }
