@@ -306,6 +306,23 @@
     "score": 114.2
   },
   {
+    "ticker": "ASND",
+    "signal_date": "2026-07-10",
+    "entry_date": "2026-07-13",
+    "entry_price": 267.0199890136719,
+    "exit_date": "2026-07-20",
+    "exit_price": 255.44,
+    "shares": 0.7490075957937353,
+    "cost_basis": 200.0,
+    "pnl": -8.673499730448242,
+    "pnl_pct": -4.336749865224121,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 255.44,
+    "target": 351.90999999999997,
+    "score": 116.7
+  },
+  {
     "ticker": "BCRX",
     "signal_date": "2026-07-10",
     "entry_date": "2026-07-13",
