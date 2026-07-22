@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NMRK",
-    "fetch_date": "2026-07-15T14:40:53.476162",
+    "fetch_date": "2026-07-22T14:51:04.305704",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 665494000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 3.11,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:40:53.476953"
+  "fetched_at": "2026-07-22T14:51:04.306958"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MGNI",
-    "fetch_date": "2026-07-15T14:37:12.924422",
+    "fetch_date": "2026-07-22T14:47:40.664559",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 155771000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 4.7,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:37:12.925461"
+  "fetched_at": "2026-07-22T14:47:40.665973"
 }

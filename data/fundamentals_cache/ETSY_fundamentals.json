@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ETSY",
-    "fetch_date": "2026-07-15T14:19:48.496805",
+    "fetch_date": "2026-07-22T14:31:42.425908",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 612204000.0,
       "2025-06-30 00:00:00": 672663000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 18.98,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:19:48.497786"
+  "fetched_at": "2026-07-22T14:31:42.427310"
 }

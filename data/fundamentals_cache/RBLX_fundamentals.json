@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RBLX",
-    "fetch_date": "2026-07-15T14:48:46.354806",
+    "fetch_date": "2026-07-22T14:58:40.878940",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1035000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": -20.39,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:48:46.356044"
+  "fetched_at": "2026-07-22T14:58:40.880836"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TNK",
-    "fetch_date": "2026-07-15T14:58:23.549078",
+    "fetch_date": "2026-07-22T15:07:34.811825",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 231639000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.1,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:58:23.550329"
+  "fetched_at": "2026-07-22T15:07:34.813682"
 }

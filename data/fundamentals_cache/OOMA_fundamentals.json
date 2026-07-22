@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OOMA",
-    "fetch_date": "2026-07-15T14:43:32.682419",
+    "fetch_date": "2026-07-22T14:53:35.339443",
     "quarterly_revenue": {
       "2024-10-31 00:00:00": NaN,
       "2025-01-31 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.222,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:43:32.683659"
+  "fetched_at": "2026-07-22T14:53:35.341298"
 }

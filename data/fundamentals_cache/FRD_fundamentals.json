@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FRD",
-    "fetch_date": "2026-07-15T14:22:34.568647",
+    "fetch_date": "2026-07-22T14:34:11.591020",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 129216000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.898,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:22:34.570093"
+  "fetched_at": "2026-07-22T14:34:11.592811"
 }

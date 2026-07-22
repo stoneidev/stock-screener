@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BIIB",
-    "fetch_date": "2026-07-15T14:06:15.044300",
+    "fetch_date": "2026-07-22T14:19:27.376996",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 2431000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.787,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:06:15.045895"
+  "fetched_at": "2026-07-22T14:19:27.378826"
 }

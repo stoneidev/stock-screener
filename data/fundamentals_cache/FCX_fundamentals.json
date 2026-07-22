@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FCX",
-    "fetch_date": "2026-07-15T14:21:04.234108",
+    "fetch_date": "2026-07-22T14:32:42.755181",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 5728000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.19,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:21:04.235369"
+  "fetched_at": "2026-07-22T14:32:42.757002"
 }

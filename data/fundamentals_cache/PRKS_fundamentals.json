@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PRKS",
-    "fetch_date": "2026-07-15T14:47:10.754612",
+    "fetch_date": "2026-07-22T14:57:05.658245",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 286949000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.205,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:47:10.755962"
+  "fetched_at": "2026-07-22T14:57:05.660029"
 }

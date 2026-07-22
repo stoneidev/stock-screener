@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MIRM",
-    "fetch_date": "2026-07-15T14:37:29.905487",
+    "fetch_date": "2026-07-22T14:47:56.317143",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 111585000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.16,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:37:29.906737"
+  "fetched_at": "2026-07-22T14:47:56.318987"
 }

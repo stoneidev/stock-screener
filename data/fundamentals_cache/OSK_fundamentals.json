@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OSK",
-    "fetch_date": "2026-07-15T14:44:06.231691",
+    "fetch_date": "2026-07-22T14:54:08.784261",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 2312800000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.085,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:44:06.232883"
+  "fetched_at": "2026-07-22T14:54:08.786892"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ACA",
-    "fetch_date": "2026-07-15T13:58:22.915983",
+    "fetch_date": "2026-07-22T14:12:08.992958",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 547600000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.612,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:58:22.917250"
+  "fetched_at": "2026-07-22T14:12:08.995752"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AP",
-    "fetch_date": "2026-07-15T14:02:01.419217",
+    "fetch_date": "2026-07-22T14:15:35.157558",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 104265000.0,
       "2025-06-30 00:00:00": 113104000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.97,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:02:01.420477"
+  "fetched_at": "2026-07-22T14:15:35.159373"
 }

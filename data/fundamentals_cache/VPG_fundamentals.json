@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VPG",
-    "fetch_date": "2026-07-15T15:02:23.794561",
+    "fetch_date": "2026-07-22T15:11:18.928254",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 71741000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.983,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T15:02:23.795774"
+  "fetched_at": "2026-07-22T15:11:18.930070"
 }

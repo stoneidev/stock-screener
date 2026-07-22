@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PRI",
-    "fetch_date": "2026-07-15T14:47:06.454480",
+    "fetch_date": "2026-07-22T14:57:02.709769",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 804843000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 18.217821782178216,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:47:06.455034"
+  "fetched_at": "2026-07-22T14:57:02.710580"
 }

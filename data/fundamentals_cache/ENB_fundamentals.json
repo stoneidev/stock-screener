@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ENB",
-    "fetch_date": "2026-07-15T14:18:58.467526",
+    "fetch_date": "2026-07-22T14:30:52.317963",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 18502000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.083,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:18:58.468660"
+  "fetched_at": "2026-07-22T14:30:52.320303"
 }

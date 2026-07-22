@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "YETI",
-    "fetch_date": "2026-07-15T15:05:23.030186",
+    "fetch_date": "2026-07-22T15:14:06.284239",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 351128000.0,
       "2025-06-30 00:00:00": 445892000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.837,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T15:05:23.031462"
+  "fetched_at": "2026-07-22T15:14:06.286316"
 }

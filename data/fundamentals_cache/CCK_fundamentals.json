@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CCK",
-    "fetch_date": "2026-07-15T14:09:53.300097",
+    "fetch_date": "2026-07-22T14:22:47.428127",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 2887000000.0,
       "2025-06-30 00:00:00": 3149000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.522,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:09:53.301244"
+  "fetched_at": "2026-07-22T14:22:47.429982"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FRHC",
-    "fetch_date": "2026-07-15T14:22:36.228218",
+    "fetch_date": "2026-07-22T14:34:12.559691",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 445781000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.033,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:22:36.229504"
+  "fetched_at": "2026-07-22T14:34:12.561507"
 }
