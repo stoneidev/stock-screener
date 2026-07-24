@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BBNX",
-    "fetch_date": "2026-07-17T14:00:07.656766",
+    "fetch_date": "2026-07-24T14:05:50.494507",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 17639000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.859,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-17T14:00:07.658315"
+  "fetched_at": "2026-07-24T14:05:50.496052"
 }

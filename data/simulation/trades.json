@@ -406,5 +406,22 @@
     "stop_loss": 11.02,
     "target": 15.08,
     "score": 112.7
+  },
+  {
+    "ticker": "PAYS",
+    "signal_date": "2026-07-22",
+    "entry_date": "2026-07-23",
+    "entry_price": 8.9399995803833,
+    "exit_date": "2026-07-24",
+    "exit_price": 8.36,
+    "shares": 22.371365703288436,
+    "cost_basis": 200.0,
+    "pnl": -12.975382720508673,
+    "pnl_pct": -6.487691360254333,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 8.36,
+    "target": 11.61,
+    "score": 114.0
   }
 ]
