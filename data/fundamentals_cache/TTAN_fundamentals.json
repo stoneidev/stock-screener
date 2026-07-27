@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TTAN",
-    "fetch_date": "2026-07-15T14:59:21.622508",
+    "fetch_date": "2026-07-27T15:48:09.780670",
     "quarterly_revenue": {
       "2024-10-31 00:00:00": NaN,
       "2025-01-31 00:00:00": NaN,
@@ -29,5 +29,5 @@
     "operating_margin": -9.58,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:59:21.623552"
+  "fetched_at": "2026-07-27T15:48:09.782047"
 }
