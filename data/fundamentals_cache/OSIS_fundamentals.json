@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OSIS",
-    "fetch_date": "2026-07-16T14:51:43.608699",
+    "fetch_date": "2026-07-28T15:07:44.341276",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 444354000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.96,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-16T14:51:43.610431"
+  "fetched_at": "2026-07-28T15:07:44.343107"
 }
