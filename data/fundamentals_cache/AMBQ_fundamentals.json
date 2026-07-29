@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AMBQ",
-    "fetch_date": "2026-07-22T14:14:41.803120",
+    "fetch_date": "2026-07-29T14:27:14.637677",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 15732000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.936,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T14:14:41.805035"
+  "fetched_at": "2026-07-29T14:27:14.639559"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LINE",
-    "fetch_date": "2026-07-22T14:45:03.424659",
+    "fetch_date": "2026-07-29T14:57:36.010958",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1292000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.106,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T14:45:03.426480"
+  "fetched_at": "2026-07-29T14:57:36.013006"
 }

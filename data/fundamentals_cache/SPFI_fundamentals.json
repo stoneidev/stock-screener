@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SPFI",
-    "fetch_date": "2026-07-22T15:04:22.634893",
+    "fetch_date": "2026-07-29T15:16:54.382468",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 47698000.0,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 11.627906976744184,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T15:04:22.635599"
+  "fetched_at": "2026-07-29T15:16:54.383264"
 }

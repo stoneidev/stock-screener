@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RAL",
-    "fetch_date": "2026-07-22T14:58:28.770822",
+    "fetch_date": "2026-07-29T15:11:01.037921",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 481800000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.601,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T14:58:28.772641"
+  "fetched_at": "2026-07-29T15:11:01.039693"
 }

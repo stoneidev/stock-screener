@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CTAS",
-    "fetch_date": "2026-07-22T14:26:29.017802",
+    "fetch_date": "2026-07-29T14:39:01.897072",
     "quarterly_revenue": {
       "2025-02-28 00:00:00": 2609159000.0,
       "2025-05-31 00:00:00": 2667652000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T14:26:29.020452"
+  "fetched_at": "2026-07-29T14:39:01.898848"
 }

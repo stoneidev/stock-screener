@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MCY",
-    "fetch_date": "2026-07-22T14:47:06.651688",
+    "fetch_date": "2026-07-29T14:59:39.350862",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1393879000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 275.51020408163265,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T14:47:06.652379"
+  "fetched_at": "2026-07-29T14:59:39.351591"
 }

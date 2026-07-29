@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DRH",
-    "fetch_date": "2026-07-22T14:28:57.009532",
+    "fetch_date": "2026-07-29T14:41:30.054279",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 254853000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 11.09,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T14:28:57.010931"
+  "fetched_at": "2026-07-29T14:41:30.055691"
 }
