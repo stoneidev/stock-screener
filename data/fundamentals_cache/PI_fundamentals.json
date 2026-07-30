@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PI",
-    "fetch_date": "2026-07-15T14:45:59.207730",
+    "fetch_date": "2026-07-30T15:05:18.978946",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 74277000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.162,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:45:59.208991"
+  "fetched_at": "2026-07-30T15:05:18.980429"
 }

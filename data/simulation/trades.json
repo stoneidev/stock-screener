@@ -306,6 +306,23 @@
     "score": 114.2
   },
   {
+    "ticker": "GBCI",
+    "signal_date": "2026-07-07",
+    "entry_date": "2026-07-08",
+    "entry_price": 51.88999938964844,
+    "exit_date": "2026-07-29",
+    "exit_price": 48.59,
+    "shares": 3.854307233618856,
+    "cost_basis": 200.0,
+    "pnl": -12.71921151845977,
+    "pnl_pct": -6.359605759229881,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 48.59,
+    "target": 64.39,
+    "score": 113.2
+  },
+  {
     "ticker": "ASND",
     "signal_date": "2026-07-10",
     "entry_date": "2026-07-13",
@@ -338,6 +355,23 @@
     "stop_loss": 9.43,
     "target": 13.459999999999999,
     "score": 113.7
+  },
+  {
+    "ticker": "ETON",
+    "signal_date": "2026-07-15",
+    "entry_date": "2026-07-16",
+    "entry_price": 38.47999954223633,
+    "exit_date": "2026-07-29",
+    "exit_price": 48.4,
+    "shares": 5.197505259335475,
+    "cost_basis": 200.0,
+    "pnl": 51.559254551837,
+    "pnl_pct": 25.779627275918493,
+    "exit_reason": "target",
+    "status": "closed",
+    "stop_loss": 34.83,
+    "target": 48.4,
+    "score": 118.0
   },
   {
     "ticker": "ASTH",
@@ -406,5 +440,22 @@
     "stop_loss": 11.02,
     "target": 15.08,
     "score": 112.7
+  },
+  {
+    "ticker": "PAYS",
+    "signal_date": "2026-07-22",
+    "entry_date": "2026-07-23",
+    "entry_price": 8.9399995803833,
+    "exit_date": "2026-07-24",
+    "exit_price": 8.36,
+    "shares": 22.371365703288436,
+    "cost_basis": 200.0,
+    "pnl": -12.975382720508673,
+    "pnl_pct": -6.487691360254333,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 8.36,
+    "target": 11.61,
+    "score": 114.0
   }
 ]
