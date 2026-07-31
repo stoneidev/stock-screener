@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CCC",
-    "fetch_date": "2026-07-23T14:32:27.073093",
+    "fetch_date": "2026-07-31T14:34:49.816896",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 246464000.0,
       "2025-03-31 00:00:00": 251565000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 17.36,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-23T14:32:27.074368"
+  "fetched_at": "2026-07-31T14:34:49.818325"
 }

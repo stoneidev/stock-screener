@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NMM",
-    "fetch_date": "2026-07-24T14:38:29.767394",
+    "fetch_date": "2026-07-31T15:03:09.081440",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 304112000.0,
       "2025-06-30 00:00:00": 327558000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-24T14:38:29.768880"
+  "fetched_at": "2026-07-31T15:03:09.083212"
 }
