@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SUPN",
-    "fetch_date": "2026-07-23T15:15:22.706371",
+    "fetch_date": "2026-08-03T15:49:12.992745",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 149824000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.419,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-23T15:15:22.708095"
+  "fetched_at": "2026-08-03T15:49:12.994598"
 }

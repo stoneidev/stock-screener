@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "XPOF",
-    "fetch_date": "2026-07-27T15:53:28.715936",
+    "fetch_date": "2026-08-03T15:57:17.970904",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 76883000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.041,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-27T15:53:28.718687"
+  "fetched_at": "2026-08-03T15:57:17.972648"
 }

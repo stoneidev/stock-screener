@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CVRX",
-    "fetch_date": "2026-07-16T14:24:40.430023",
+    "fetch_date": "2026-08-03T15:10:38.586171",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 12348000.0,
       "2025-06-30 00:00:00": 13589000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.84,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-16T14:24:40.431736"
+  "fetched_at": "2026-08-03T15:10:38.587851"
 }

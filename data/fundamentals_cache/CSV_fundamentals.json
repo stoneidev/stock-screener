@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CSV",
-    "fetch_date": "2026-07-27T15:06:10.243993",
+    "fetch_date": "2026-08-03T15:10:00.607823",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 107069000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.073,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-27T15:06:10.245731"
+  "fetched_at": "2026-08-03T15:10:00.609555"
 }

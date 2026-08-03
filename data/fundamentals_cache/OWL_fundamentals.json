@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OWL",
-    "fetch_date": "2026-07-27T15:34:03.372933",
+    "fetch_date": "2026-08-03T15:37:54.891832",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 683486000.0,
       "2025-06-30 00:00:00": 703106000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 14.52,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-27T15:34:03.374301"
+  "fetched_at": "2026-08-03T15:37:54.893174"
 }

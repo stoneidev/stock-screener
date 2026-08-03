@@ -457,5 +457,22 @@
     "stop_loss": 8.36,
     "target": 11.61,
     "score": 114.0
+  },
+  {
+    "ticker": "TGTX",
+    "signal_date": "2026-07-29",
+    "entry_date": "2026-07-30",
+    "entry_price": 53.47999954223633,
+    "exit_date": "2026-08-03",
+    "exit_price": 51.02,
+    "shares": 3.7397158136108084,
+    "cost_basis": 200.0,
+    "pnl": -9.199699189576535,
+    "pnl_pct": -4.599849594788264,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 51.02,
+    "target": 70.45,
+    "score": 112.3
   }
 ]
