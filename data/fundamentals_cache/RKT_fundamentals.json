@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RKT",
-    "fetch_date": "2026-07-15T14:49:56.568081",
+    "fetch_date": "2026-08-04T15:19:08.805386",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 992000000.0,
       "2025-06-30 00:00:00": 1302533000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": 225.0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:49:56.568694"
+  "fetched_at": "2026-08-04T15:19:08.806033"
 }

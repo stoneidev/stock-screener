@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EL",
-    "fetch_date": "2026-07-28T14:44:06.133788",
+    "fetch_date": "2026-08-04T14:49:45.717500",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 3550000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.516,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-28T14:44:06.135662"
+  "fetched_at": "2026-08-04T14:49:45.718886"
 }

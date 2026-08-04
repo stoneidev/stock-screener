@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ALH",
-    "fetch_date": "2026-07-28T14:27:54.075331",
+    "fetch_date": "2026-08-04T14:33:31.767368",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 389573000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.382,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-28T14:27:54.077146"
+  "fetched_at": "2026-08-04T14:33:31.768805"
 }

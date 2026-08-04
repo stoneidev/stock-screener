@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PXED",
-    "fetch_date": "2026-07-28T15:11:29.337425",
+    "fetch_date": "2026-08-04T15:17:08.864650",
     "quarterly_revenue": {
       "2025-05-31 00:00:00": 271703000.0,
       "2025-08-31 00:00:00": 257391000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 23.46,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-28T15:11:29.338774"
+  "fetched_at": "2026-08-04T15:17:08.865772"
 }

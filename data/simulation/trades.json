@@ -474,5 +474,22 @@
     "stop_loss": 51.02,
     "target": 70.45,
     "score": 112.3
+  },
+  {
+    "ticker": "AMN",
+    "signal_date": "2026-07-30",
+    "entry_date": "2026-07-31",
+    "entry_price": 34.2599983215332,
+    "exit_date": "2026-08-04",
+    "exit_price": 32.27,
+    "shares": 5.837711903047449,
+    "cost_basis": 200.0,
+    "pnl": -11.617036888658806,
+    "pnl_pct": -5.808518444329403,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 32.27,
+    "target": 44.38,
+    "score": 113.0
   }
 ]

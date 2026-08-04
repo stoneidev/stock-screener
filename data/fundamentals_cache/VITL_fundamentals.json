@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VITL",
-    "fetch_date": "2026-07-28T15:24:34.358425",
+    "fetch_date": "2026-08-04T15:30:15.983993",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 162189000.0,
       "2025-06-30 00:00:00": 184767000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.482,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-28T15:24:34.360197"
+  "fetched_at": "2026-08-04T15:30:15.985320"
 }

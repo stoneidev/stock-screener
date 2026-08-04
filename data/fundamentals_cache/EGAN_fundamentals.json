@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EGAN",
-    "fetch_date": "2026-07-28T14:43:52.126751",
+    "fetch_date": "2026-08-04T14:49:31.668648",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 21009000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 8.92,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-28T14:43:52.128271"
+  "fetched_at": "2026-08-04T14:49:31.669750"
 }

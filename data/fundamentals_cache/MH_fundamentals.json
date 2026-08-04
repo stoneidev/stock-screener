@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MH",
-    "fetch_date": "2026-07-28T15:01:26.251774",
+    "fetch_date": "2026-08-04T15:07:04.857815",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 473262000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.421,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-28T15:01:26.253566"
+  "fetched_at": "2026-08-04T15:07:04.859162"
 }
