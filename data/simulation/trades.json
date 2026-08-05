@@ -323,6 +323,23 @@
     "score": 113.2
   },
   {
+    "ticker": "CTRN",
+    "signal_date": "2026-07-08",
+    "entry_date": "2026-07-09",
+    "entry_price": 56.08000183105469,
+    "exit_date": "2026-08-04",
+    "exit_price": 72.85,
+    "shares": 3.566333692400998,
+    "cost_basis": 200.0,
+    "pnl": 59.80740949141269,
+    "pnl_pct": 29.90370474570634,
+    "exit_reason": "target",
+    "status": "closed",
+    "stop_loss": 53.28,
+    "target": 72.85,
+    "score": 112.7
+  },
+  {
     "ticker": "ASND",
     "signal_date": "2026-07-10",
     "entry_date": "2026-07-13",
