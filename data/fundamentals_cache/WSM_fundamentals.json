@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WSM",
-    "fetch_date": "2026-07-29T15:25:45.166052",
+    "fetch_date": "2026-08-06T15:28:50.945947",
     "quarterly_revenue": {
       "2025-04-30 00:00:00": 1730113000.0,
       "2025-07-31 00:00:00": 1836760000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.806,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T15:25:45.167818"
+  "fetched_at": "2026-08-06T15:28:50.947700"
 }

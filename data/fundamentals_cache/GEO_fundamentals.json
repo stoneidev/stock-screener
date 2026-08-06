@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GEO",
-    "fetch_date": "2026-07-29T14:48:07.378290",
+    "fetch_date": "2026-08-06T14:51:12.134128",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 604647000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 12.66,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:48:07.379305"
+  "fetched_at": "2026-08-06T14:51:12.135160"
 }

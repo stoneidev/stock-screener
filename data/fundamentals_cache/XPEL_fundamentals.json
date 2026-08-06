@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "XPEL",
-    "fetch_date": "2026-07-29T15:26:17.040251",
+    "fetch_date": "2026-08-06T15:29:22.796727",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 103805000.0,
       "2025-06-30 00:00:00": 124713000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 1.121,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T15:26:17.041976"
+  "fetched_at": "2026-08-06T15:29:22.798454"
 }

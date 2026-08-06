@@ -476,6 +476,23 @@
     "score": 114.0
   },
   {
+    "ticker": "EOG",
+    "signal_date": "2026-07-24",
+    "entry_date": "2026-07-27",
+    "entry_price": 143.0,
+    "exit_date": "2026-08-05",
+    "exit_price": 134.67,
+    "shares": 1.3986013986013985,
+    "cost_basis": 200.0,
+    "pnl": -11.650349650349668,
+    "pnl_pct": -5.825174825174839,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 134.67,
+    "target": 185.79000000000002,
+    "score": 113.2
+  },
+  {
     "ticker": "TGTX",
     "signal_date": "2026-07-29",
     "entry_date": "2026-07-30",

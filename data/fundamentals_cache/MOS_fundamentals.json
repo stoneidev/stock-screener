@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MOS",
-    "fetch_date": "2026-07-29T15:01:04.620049",
+    "fetch_date": "2026-08-06T15:04:08.646719",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 2620900000.0,
       "2025-06-30 00:00:00": 3005700000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 1.142,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T15:01:04.621852"
+  "fetched_at": "2026-08-06T15:04:08.648483"
 }

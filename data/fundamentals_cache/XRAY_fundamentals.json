@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "XRAY",
-    "fetch_date": "2026-07-29T15:26:22.118744",
+    "fetch_date": "2026-08-06T15:29:27.842258",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 879000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.749,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T15:26:22.120530"
+  "fetched_at": "2026-08-06T15:29:27.844051"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EGBN",
-    "fetch_date": "2026-07-29T14:42:46.219572",
+    "fetch_date": "2026-08-06T14:45:52.132110",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 73856000.0,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 110.00000000000001,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:42:46.220336"
+  "fetched_at": "2026-08-06T14:45:52.132803"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LOMA",
-    "fetch_date": "2026-07-29T14:58:04.199997",
+    "fetch_date": "2026-08-06T15:01:10.535920",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 216349649000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.519,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:58:04.201807"
+  "fetched_at": "2026-08-06T15:01:10.537694"
 }

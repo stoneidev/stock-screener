@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RYAM",
-    "fetch_date": "2026-07-29T15:13:25.258088",
+    "fetch_date": "2026-08-06T15:16:32.914542",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 352584000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.701,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T15:13:25.260841"
+  "fetched_at": "2026-08-06T15:16:32.916269"
 }

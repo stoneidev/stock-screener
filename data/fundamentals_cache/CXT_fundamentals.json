@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CXT",
-    "fetch_date": "2026-07-29T14:39:49.034766",
+    "fetch_date": "2026-08-06T14:42:56.271418",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 330300000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.672,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:39:49.036851"
+  "fetched_at": "2026-08-06T14:42:56.273245"
 }

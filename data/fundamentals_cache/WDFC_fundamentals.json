@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WDFC",
-    "fetch_date": "2026-07-29T15:24:48.164394",
+    "fetch_date": "2026-08-06T15:27:53.816356",
     "quarterly_revenue": {
       "2025-05-31 00:00:00": 156915000.0,
       "2025-08-31 00:00:00": 163471000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.415,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T15:24:48.166464"
+  "fetched_at": "2026-08-06T15:27:53.818297"
 }

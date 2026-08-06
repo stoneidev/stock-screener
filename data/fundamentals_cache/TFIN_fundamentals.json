@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TFIN",
-    "fetch_date": "2026-07-29T15:19:15.470576",
+    "fetch_date": "2026-08-06T15:22:23.901470",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 108377000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 193.33333333333337,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T15:19:15.471337"
+  "fetched_at": "2026-08-06T15:22:23.902169"
 }
