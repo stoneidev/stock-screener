@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NB",
-    "fetch_date": "2026-08-05T15:02:26.588993",
+    "fetch_date": "2026-08-13T14:04:12.794483",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 0.0,
@@ -25,5 +25,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-05T15:02:26.589865"
+  "fetched_at": "2026-08-13T14:04:12.795367"
 }
