@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WEC",
-    "fetch_date": "2026-08-06T15:27:55.858825",
+    "fetch_date": "2026-08-14T14:21:18.523729",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 2009500000.0,
       "2025-09-30 00:00:00": 2104000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.361,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T15:27:55.860582"
+  "fetched_at": "2026-08-14T14:21:18.525219"
 }

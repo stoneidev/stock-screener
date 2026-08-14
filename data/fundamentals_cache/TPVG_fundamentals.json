@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TPVG",
-    "fetch_date": "2026-08-06T15:23:35.784397",
+    "fetch_date": "2026-08-14T14:16:57.321003",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 15966000.0,
       "2025-06-30 00:00:00": 15135000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": -53.125,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T15:23:35.785072"
+  "fetched_at": "2026-08-14T14:16:57.321666"
 }

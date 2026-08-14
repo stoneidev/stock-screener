@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NDSN",
-    "fetch_date": "2026-08-06T15:05:56.633923",
+    "fetch_date": "2026-08-14T13:59:16.282222",
     "quarterly_revenue": {
       "2025-04-30 00:00:00": 682938000.0,
       "2025-07-31 00:00:00": 741509000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.631,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T15:05:56.635627"
+  "fetched_at": "2026-08-14T13:59:16.283791"
 }

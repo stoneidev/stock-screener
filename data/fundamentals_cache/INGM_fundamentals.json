@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "INGM",
-    "fetch_date": "2026-08-06T14:56:24.301953",
+    "fetch_date": "2026-08-14T13:49:43.803768",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 12793956000.0,
       "2025-09-30 00:00:00": 12603755000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.414,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:56:24.303655"
+  "fetched_at": "2026-08-14T13:49:43.805223"
 }

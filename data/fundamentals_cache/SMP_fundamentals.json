@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SMP",
-    "fetch_date": "2026-08-06T15:19:20.081432",
+    "fetch_date": "2026-08-14T14:12:42.098847",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 493853000.0,
       "2025-09-30 00:00:00": 498836000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 1.364,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T15:19:20.083204"
+  "fetched_at": "2026-08-14T14:12:42.100370"
 }

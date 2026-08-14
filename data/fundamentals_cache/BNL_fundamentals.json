@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BNL",
-    "fetch_date": "2026-08-06T14:35:55.170343",
+    "fetch_date": "2026-08-14T13:29:12.211647",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 112986000.0,
       "2025-09-30 00:00:00": 114167000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 45.37,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:35:55.171662"
+  "fetched_at": "2026-08-14T13:29:12.212850"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KMI",
-    "fetch_date": "2026-08-06T14:58:50.290090",
+    "fetch_date": "2026-08-14T13:52:10.080641",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 4042000000.0,
       "2025-09-30 00:00:00": 4146000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.126,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:58:50.291821"
+  "fetched_at": "2026-08-14T13:52:10.083039"
 }

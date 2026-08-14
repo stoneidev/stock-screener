@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LE",
-    "fetch_date": "2026-08-06T15:00:04.904525",
+    "fetch_date": "2026-08-14T13:53:24.096103",
     "quarterly_revenue": {
       "2025-01-31 00:00:00": NaN,
       "2025-04-30 00:00:00": 261208000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.255,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T15:00:04.906702"
+  "fetched_at": "2026-08-14T13:53:24.097617"
 }

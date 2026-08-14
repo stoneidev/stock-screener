@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OCC",
-    "fetch_date": "2026-08-06T15:08:17.585448",
+    "fetch_date": "2026-08-14T14:01:37.559590",
     "quarterly_revenue": {
       "2025-04-30 00:00:00": 17549748.0,
       "2025-07-31 00:00:00": 19916919.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.958,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T15:08:17.587216"
+  "fetched_at": "2026-08-14T14:01:37.561152"
 }

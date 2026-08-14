@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CRS",
-    "fetch_date": "2026-08-06T14:41:52.173131",
+    "fetch_date": "2026-08-14T13:35:10.155133",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 727000000.0,
       "2025-06-30 00:00:00": 755600000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:41:52.174877"
+  "fetched_at": "2026-08-14T13:35:10.156629"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RDVT",
-    "fetch_date": "2026-08-06T15:14:36.532674",
+    "fetch_date": "2026-08-14T14:07:58.855763",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 22003000.0,
       "2025-06-30 00:00:00": 21774000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 21.08,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T15:14:36.533995"
+  "fetched_at": "2026-08-14T14:07:58.856925"
 }

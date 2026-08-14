@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WEX",
-    "fetch_date": "2026-08-06T15:28:02.800644",
+    "fetch_date": "2026-08-14T14:21:25.440102",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 659600000.0,
       "2025-09-30 00:00:00": 691700000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 26.95,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T15:28:02.801997"
+  "fetched_at": "2026-08-14T14:21:25.441310"
 }

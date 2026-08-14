@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AZZ",
-    "fetch_date": "2026-08-06T14:33:33.202151",
+    "fetch_date": "2026-08-14T13:26:48.999713",
     "quarterly_revenue": {
       "2024-11-30 00:00:00": NaN,
       "2025-02-28 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.27,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:33:33.204124"
+  "fetched_at": "2026-08-14T13:26:49.001205"
 }

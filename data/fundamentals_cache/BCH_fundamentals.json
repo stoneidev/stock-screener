@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BCH",
-    "fetch_date": "2026-08-06T14:34:14.115840",
+    "fetch_date": "2026-08-14T13:27:30.191331",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 776261000000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": -18.404907975460123,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:34:14.116521"
+  "fetched_at": "2026-08-14T13:27:30.191995"
 }

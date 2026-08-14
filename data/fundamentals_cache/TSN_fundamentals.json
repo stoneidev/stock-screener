@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TSN",
-    "fetch_date": "2026-08-07T14:15:09.191133",
+    "fetch_date": "2026-08-14T14:17:26.191934",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 13884000000.0,
       "2025-09-30 00:00:00": 13860000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.421,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T14:15:09.193050"
+  "fetched_at": "2026-08-14T14:17:26.193439"
 }

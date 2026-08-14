@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ORKA",
-    "fetch_date": "2026-08-06T15:09:36.455743",
+    "fetch_date": "2026-08-14T14:02:56.648016",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 0.0,
       "2025-06-30 00:00:00": 0.0,
@@ -23,5 +23,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T15:09:36.456710"
+  "fetched_at": "2026-08-14T14:02:56.648906"
 }
