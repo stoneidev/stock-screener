@@ -1,12 +1,12 @@
 {
   "invested_capital": 12000.0,
-  "realized_pnl": -123.86351372718974,
-  "unrealized_pnl": 278.9300036858323,
-  "total_pnl": 155.06648995864253,
-  "total_return_pct": 1.2922207496553544,
-  "num_trades": 32,
-  "num_open": 28,
-  "win_rate": 9.375,
-  "avg_pnl": -3.8707348039746794,
+  "realized_pnl": -133.5832922112269,
+  "unrealized_pnl": 309.3231908867262,
+  "total_pnl": 175.7398986754993,
+  "total_return_pct": 1.4644991556291609,
+  "num_trades": 33,
+  "num_open": 27,
+  "win_rate": 9.090909090909092,
+  "avg_pnl": -4.047978551855361,
   "max_drawdown_pct": -1.4932474938162523
 }
