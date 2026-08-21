@@ -559,5 +559,22 @@
     "stop_loss": 247.73,
     "target": 344.03999999999996,
     "score": 113.9
+  },
+  {
+    "ticker": "PLPC",
+    "signal_date": "2026-08-19",
+    "entry_date": "2026-08-20",
+    "entry_price": 428.2200012207031,
+    "exit_date": "2026-08-21",
+    "exit_price": 425.3,
+    "shares": 0.4670496460461236,
+    "cost_basis": 200.0,
+    "pnl": -1.363785536583638,
+    "pnl_pct": -0.6818927682918141,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 425.3,
+    "target": 569.99,
+    "score": 112.7
   }
 ]
