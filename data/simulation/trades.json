@@ -544,6 +544,23 @@
     "score": 113.0
   },
   {
+    "ticker": "WKC",
+    "signal_date": "2026-07-31",
+    "entry_date": "2026-08-03",
+    "entry_price": 39.22999954223633,
+    "exit_date": "2026-08-21",
+    "exit_price": 35.38,
+    "shares": 5.098139238688324,
+    "cost_basis": 200.0,
+    "pnl": -19.627833735207098,
+    "pnl_pct": -9.813916867603545,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 35.38,
+    "target": 51.1,
+    "score": 113.1
+  },
+  {
     "ticker": "STLD",
     "signal_date": "2026-08-06",
     "entry_date": "2026-08-07",
