@@ -221,6 +221,23 @@
     "score": 112.7
   },
   {
+    "ticker": "SENEA",
+    "signal_date": "2026-06-18",
+    "entry_date": "2026-06-22",
+    "entry_price": 154.52999877929688,
+    "exit_date": "2026-08-28",
+    "exit_price": 201.72999999999996,
+    "shares": 1.2942470819898495,
+    "cost_basis": 200.0,
+    "pnl": 61.08846384981231,
+    "pnl_pct": 30.544231924906164,
+    "exit_reason": "target",
+    "status": "closed",
+    "stop_loss": 143.67,
+    "target": 201.72999999999996,
+    "score": 113.9
+  },
+  {
     "ticker": "ANAB",
     "signal_date": "2026-06-19",
     "entry_date": "2026-06-22",
@@ -576,6 +593,23 @@
     "stop_loss": 51.02,
     "target": 70.45,
     "score": 112.3
+  },
+  {
+    "ticker": "NVEC",
+    "signal_date": "2026-07-29",
+    "entry_date": "2026-07-30",
+    "entry_price": 115.69000244140625,
+    "exit_date": "2026-08-28",
+    "exit_price": 102.48,
+    "shares": 1.7287578509758819,
+    "cost_basis": 200.0,
+    "pnl": -22.836895431991614,
+    "pnl_pct": -11.418447715995805,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 102.48,
+    "target": 148.03,
+    "score": 112.2
   },
   {
     "ticker": "AMN",
