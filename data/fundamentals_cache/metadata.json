@@ -7850,5 +7850,21 @@
   "HOS": {
     "last_updated": "2026-09-09T16:50:54.692209",
     "in_earnings_season": false
+  },
+  "ARCT": {
+    "last_updated": "2026-09-10T16:17:45.070589",
+    "in_earnings_season": false
+  },
+  "CBC": {
+    "last_updated": "2026-09-10T16:24:03.101681",
+    "in_earnings_season": false
+  },
+  "JILL": {
+    "last_updated": "2026-09-10T16:43:49.418401",
+    "in_earnings_season": false
+  },
+  "STAA": {
+    "last_updated": "2026-09-10T17:06:32.353216",
+    "in_earnings_season": false
   }
 }

@@ -646,6 +646,23 @@
     "score": 113.1
   },
   {
+    "ticker": "VLO",
+    "signal_date": "2026-08-06",
+    "entry_date": "2026-08-07",
+    "entry_price": 298.5,
+    "exit_date": "2026-09-10",
+    "exit_price": 392.51,
+    "shares": 0.6700167504187605,
+    "cost_basis": 200.0,
+    "pnl": 62.98827470686767,
+    "pnl_pct": 31.49413735343383,
+    "exit_reason": "target",
+    "status": "closed",
+    "stop_loss": 291.61,
+    "target": 392.51,
+    "score": 114.2
+  },
+  {
     "ticker": "STLD",
     "signal_date": "2026-08-06",
     "entry_date": "2026-08-07",
@@ -661,6 +678,23 @@
     "stop_loss": 247.73,
     "target": 344.03999999999996,
     "score": 113.9
+  },
+  {
+    "ticker": "JOE",
+    "signal_date": "2026-08-14",
+    "entry_date": "2026-08-17",
+    "entry_price": 67.86000061035156,
+    "exit_date": "2026-09-10",
+    "exit_price": 63.18,
+    "shares": 2.947244300046343,
+    "cost_basis": 200.0,
+    "pnl": -13.79310512307205,
+    "pnl_pct": -6.896552561536029,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 63.18,
+    "target": 86.36,
+    "score": 110.8
   },
   {
     "ticker": "PLPC",
