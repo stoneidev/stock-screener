@@ -697,6 +697,23 @@
     "score": 110.8
   },
   {
+    "ticker": "NWL",
+    "signal_date": "2026-08-17",
+    "entry_date": "2026-08-18",
+    "entry_price": 6.03000020980835,
+    "exit_date": "2026-09-11",
+    "exit_price": 5.76,
+    "shares": 33.167494700030296,
+    "cost_basis": 200.0,
+    "pnl": -8.955230527825512,
+    "pnl_pct": -4.47761526391276,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 5.76,
+    "target": 8.06,
+    "score": 111.1
+  },
+  {
     "ticker": "PLPC",
     "signal_date": "2026-08-19",
     "entry_date": "2026-08-20",
