@@ -323,6 +323,23 @@
     "score": 116.3
   },
   {
+    "ticker": "NAT",
+    "signal_date": "2026-06-30",
+    "entry_date": "2026-07-01",
+    "entry_price": 5.510000228881836,
+    "exit_date": "2026-09-11",
+    "exit_price": 7.5,
+    "shares": 36.29763914557708,
+    "cost_basis": 200.0,
+    "pnl": 72.2322935918281,
+    "pnl_pct": 36.11614679591406,
+    "exit_reason": "target",
+    "status": "closed",
+    "stop_loss": 5.39,
+    "target": 7.5,
+    "score": 116.3
+  },
+  {
     "ticker": "NTST",
     "signal_date": "2026-07-01",
     "entry_date": "2026-07-02",
