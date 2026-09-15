@@ -1,5 +1,22 @@
 [
   {
+    "ticker": "D",
+    "signal_date": "2026-06-03",
+    "entry_date": "2026-06-04",
+    "entry_price": 65.61000061035156,
+    "exit_date": "2026-09-15",
+    "exit_price": 64.23,
+    "shares": 3.048315777159819,
+    "cost_basis": 200.0,
+    "pnl": -4.206677633024835,
+    "pnl_pct": -2.1033388165124123,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 64.23,
+    "target": 84.89999999999999,
+    "score": 113.0
+  },
+  {
     "ticker": "TEO",
     "signal_date": "2026-06-03",
     "entry_date": "2026-06-04",
@@ -712,6 +729,23 @@
     "stop_loss": 63.18,
     "target": 86.36,
     "score": 110.8
+  },
+  {
+    "ticker": "AAMI",
+    "signal_date": "2026-08-17",
+    "entry_date": "2026-08-18",
+    "entry_price": 92.05999755859375,
+    "exit_date": "2026-09-15",
+    "exit_price": 86.07,
+    "shares": 2.1724962557456653,
+    "cost_basis": 200.0,
+    "pnl": -13.013247267970613,
+    "pnl_pct": -6.506623633985309,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 86.07,
+    "target": 120.25999999999999,
+    "score": 111.7
   },
   {
     "ticker": "NWL",
