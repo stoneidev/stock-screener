@@ -10,10 +10,10 @@
     "target": 114.10000000000001,
     "score": 111.5,
     "status": "open",
-    "mark_date": "2026-09-16",
-    "mark_price": 95.93000030517578,
-    "unrealized_pnl": 22.575414620434067,
-    "unrealized_pnl_pct": 11.287707310217044
+    "mark_date": "2026-09-17",
+    "mark_price": 96.66000366210938,
+    "unrealized_pnl": 24.269157967946985,
+    "unrealized_pnl_pct": 12.134578983973498
   },
   {
     "ticker": "MSGS",
@@ -26,10 +26,10 @@
     "target": 500.63,
     "score": 113.3,
     "status": "open",
-    "mark_date": "2026-09-16",
-    "mark_price": 396.2508850097656,
-    "unrealized_pnl": 5.316663662267594,
-    "unrealized_pnl_pct": 2.658331831133798
+    "mark_date": "2026-09-17",
+    "mark_price": 395.69000244140625,
+    "unrealized_pnl": 5.026043396172712,
+    "unrealized_pnl_pct": 2.5130216980863596
   },
   {
     "ticker": "ALRS",
@@ -42,10 +42,10 @@
     "target": 38.43,
     "score": 112.6,
     "status": "open",
-    "mark_date": "2026-09-16",
-    "mark_price": 33.15999984741211,
-    "unrealized_pnl": 21.14038079684689,
-    "unrealized_pnl_pct": 10.57019039842344
+    "mark_date": "2026-09-17",
+    "mark_price": 33.005001068115234,
+    "unrealized_pnl": 20.106711037061523,
+    "unrealized_pnl_pct": 10.053355518530772
   },
   {
     "ticker": "SPG",
@@ -58,10 +58,10 @@
     "target": 268.8,
     "score": 116.3,
     "status": "open",
-    "mark_date": "2026-09-16",
-    "mark_price": 203.7595977783203,
-    "unrealized_pnl": -11.176359129467095,
-    "unrealized_pnl_pct": -5.588179564733542
+    "mark_date": "2026-09-17",
+    "mark_price": 205.89999389648438,
+    "unrealized_pnl": -9.192858021575256,
+    "unrealized_pnl_pct": -4.596429010787628
   },
   {
     "ticker": "BNY",
@@ -74,10 +74,10 @@
     "target": 179.54,
     "score": 108.9,
     "status": "open",
-    "mark_date": "2026-09-16",
-    "mark_price": 155.8350067138672,
-    "unrealized_pnl": 14.900376509018814,
-    "unrealized_pnl_pct": 7.4501882545094045
+    "mark_date": "2026-09-17",
+    "mark_price": 153.88999938964844,
+    "unrealized_pnl": 12.218162704165083,
+    "unrealized_pnl_pct": 6.109081352082546
   },
   {
     "ticker": "WELL",
@@ -90,10 +90,10 @@
     "target": 285.32,
     "score": 112.7,
     "status": "open",
-    "mark_date": "2026-09-16",
-    "mark_price": 233.889892578125,
-    "unrealized_pnl": 11.01578879985022,
-    "unrealized_pnl_pct": 5.507894399925117
+    "mark_date": "2026-09-17",
+    "mark_price": 232.7899932861328,
+    "unrealized_pnl": 10.023458117486072,
+    "unrealized_pnl_pct": 5.011729058743031
   },
   {
     "ticker": "TMP",
@@ -106,10 +106,10 @@
     "target": 116.26,
     "score": 121.2,
     "status": "open",
-    "mark_date": "2026-09-16",
-    "mark_price": 98.68499755859375,
-    "unrealized_pnl": 9.678105679558772,
-    "unrealized_pnl_pct": 4.83905283977939
+    "mark_date": "2026-09-17",
+    "mark_price": 98.98999786376953,
+    "unrealized_pnl": 10.326146291638375,
+    "unrealized_pnl_pct": 5.163073145819186
   },
   {
     "ticker": "BBY",
@@ -122,10 +122,10 @@
     "target": 104.21,
     "score": 113.1,
     "status": "open",
-    "mark_date": "2026-09-16",
-    "mark_price": 92.73999786376953,
-    "unrealized_pnl": 30.181175865966555,
-    "unrealized_pnl_pct": 15.09058793298328
+    "mark_date": "2026-09-17",
+    "mark_price": 94.22000122070312,
+    "unrealized_pnl": 33.854552195832106,
+    "unrealized_pnl_pct": 16.927276097916042
   },
   {
     "ticker": "SUN",
@@ -138,10 +138,10 @@
     "target": 90.36,
     "score": 124.7,
     "status": "open",
-    "mark_date": "2026-09-16",
-    "mark_price": 78.94999694824219,
-    "unrealized_pnl": 22.457011029515694,
-    "unrealized_pnl_pct": 11.228505514757847
+    "mark_date": "2026-09-17",
+    "mark_price": 78.46499633789062,
+    "unrealized_pnl": 21.090427238549488,
+    "unrealized_pnl_pct": 10.54521361927474
   },
   {
     "ticker": "OBK",
@@ -154,10 +154,10 @@
     "target": 66.08,
     "score": 112.5,
     "status": "open",
-    "mark_date": "2026-09-16",
-    "mark_price": 54.255001068115234,
-    "unrealized_pnl": 7.993110877320443,
-    "unrealized_pnl_pct": 3.996555438660221
+    "mark_date": "2026-09-17",
+    "mark_price": 53.9900016784668,
+    "unrealized_pnl": 6.977203654972941,
+    "unrealized_pnl_pct": 3.4886018274864705
   },
   {
     "ticker": "DRI",
@@ -170,10 +170,10 @@
     "target": 274.54,
     "score": 112.1,
     "status": "open",
-    "mark_date": "2026-09-16",
-    "mark_price": 210.8000030517578,
-    "unrealized_pnl": -7.189244012359437,
-    "unrealized_pnl_pct": -3.594622006179715
+    "mark_date": "2026-09-17",
+    "mark_price": 207.48500061035156,
+    "unrealized_pnl": -10.221350831975935,
+    "unrealized_pnl_pct": -5.110675415987965
   },
   {
     "ticker": "HTGC",
@@ -186,10 +186,10 @@
     "target": 20.93,
     "score": 116.4,
     "status": "open",
-    "mark_date": "2026-09-16",
-    "mark_price": 17.68000030517578,
-    "unrealized_pnl": 11.230591958303581,
-    "unrealized_pnl_pct": 5.61529597915178
+    "mark_date": "2026-09-17",
+    "mark_price": 17.885000228881836,
+    "unrealized_pnl": 13.67981449723987,
+    "unrealized_pnl_pct": 6.839907248619936
   },
   {
     "ticker": "LEGH",
@@ -202,10 +202,10 @@
     "target": 37.26,
     "score": 113.8,
     "status": "open",
-    "mark_date": "2026-09-16",
-    "mark_price": 27.979999542236328,
-    "unrealized_pnl": -7.763662277034815,
-    "unrealized_pnl_pct": -3.881831138517411
+    "mark_date": "2026-09-17",
+    "mark_price": 27.709999084472656,
+    "unrealized_pnl": -9.618698018034829,
+    "unrealized_pnl_pct": -4.809349009017416
   },
   {
     "ticker": "OKE",
@@ -218,10 +218,10 @@
     "target": 117.91,
     "score": 110.9,
     "status": "open",
-    "mark_date": "2026-09-16",
-    "mark_price": 93.69999694824219,
-    "unrealized_pnl": -5.883579739698085,
-    "unrealized_pnl_pct": -2.941789869849043
+    "mark_date": "2026-09-17",
+    "mark_price": 93.44000244140625,
+    "unrealized_pnl": -6.422205188983989,
+    "unrealized_pnl_pct": -3.211102594491999
   },
   {
     "ticker": "ET",
@@ -234,10 +234,10 @@
     "target": 25.419999999999998,
     "score": 121.6,
     "status": "open",
-    "mark_date": "2026-09-16",
-    "mark_price": 21.2549991607666,
-    "unrealized_pnl": -0.4225359427773899,
-    "unrealized_pnl_pct": -0.21126797138869557
+    "mark_date": "2026-09-17",
+    "mark_price": 21.117700576782227,
+    "unrealized_pnl": -1.7117245709674307,
+    "unrealized_pnl_pct": -0.8558622854837106
   },
   {
     "ticker": "KRP",
@@ -250,10 +250,10 @@
     "target": 19.490000000000002,
     "score": 116.5,
     "status": "open",
-    "mark_date": "2026-09-16",
-    "mark_price": 14.739999771118164,
-    "unrealized_pnl": -5.412539376048963,
-    "unrealized_pnl_pct": -2.7062696880244763
+    "mark_date": "2026-09-17",
+    "mark_price": 14.710000038146973,
+    "unrealized_pnl": -5.8085754648485715,
+    "unrealized_pnl_pct": -2.904287732424282
   },
   {
     "ticker": "MPC",
@@ -266,10 +266,10 @@
     "target": 479.48,
     "score": 114.4,
     "status": "open",
-    "mark_date": "2026-09-16",
-    "mark_price": 418.1860046386719,
-    "unrealized_pnl": 23.485472184185788,
-    "unrealized_pnl_pct": 11.742736092092887
+    "mark_date": "2026-09-17",
+    "mark_price": 421.95001220703125,
+    "unrealized_pnl": 25.497019675944802,
+    "unrealized_pnl_pct": 12.7485098379724
   },
   {
     "ticker": "NGL",
@@ -282,10 +282,10 @@
     "target": 23.1,
     "score": 113.7,
     "status": "open",
-    "mark_date": "2026-09-16",
-    "mark_price": 16.434999465942383,
-    "unrealized_pnl": -22.994079310371745,
-    "unrealized_pnl_pct": -11.49703965518587
+    "mark_date": "2026-09-17",
+    "mark_price": 16.71579933166504,
+    "unrealized_pnl": -19.96984807356758,
+    "unrealized_pnl_pct": -9.984924036783793
   },
   {
     "ticker": "PAA",
@@ -298,10 +298,10 @@
     "target": 33.370000000000005,
     "score": 115.8,
     "status": "open",
-    "mark_date": "2026-09-16",
-    "mark_price": 25.450000762939453,
-    "unrealized_pnl": -2.4835055424130825,
-    "unrealized_pnl_pct": -1.241752771206539
+    "mark_date": "2026-09-17",
+    "mark_price": 25.540000915527344,
+    "unrealized_pnl": -1.7850177582518176,
+    "unrealized_pnl_pct": -0.8925088791259084
   },
   {
     "ticker": "CNQ",
@@ -314,10 +314,10 @@
     "target": 67.39999999999999,
     "score": 114.3,
     "status": "open",
-    "mark_date": "2026-09-16",
-    "mark_price": 50.3650016784668,
-    "unrealized_pnl": -5.5405311958656345,
-    "unrealized_pnl_pct": -2.7702655979328195
+    "mark_date": "2026-09-17",
+    "mark_price": 50.345001220703125,
+    "unrealized_pnl": -5.617753041650382,
+    "unrealized_pnl_pct": -2.8088765208251876
   },
   {
     "ticker": "COP",
@@ -330,10 +330,10 @@
     "target": 177.44,
     "score": 118.4,
     "status": "open",
-    "mark_date": "2026-09-16",
-    "mark_price": 134.3800048828125,
-    "unrealized_pnl": -0.3268963012288879,
-    "unrealized_pnl_pct": -0.1634481506144425
+    "mark_date": "2026-09-17",
+    "mark_price": 132.7899932861328,
+    "unrealized_pnl": -2.6894691460724034,
+    "unrealized_pnl_pct": -1.3447345730361993
   },
   {
     "ticker": "CVX",
@@ -346,10 +346,10 @@
     "target": 277.72,
     "score": 115.4,
     "status": "open",
-    "mark_date": "2026-09-16",
-    "mark_price": 212.8800048828125,
-    "unrealized_pnl": 0.8112447816446602,
-    "unrealized_pnl_pct": 0.40562239082233553
+    "mark_date": "2026-09-17",
+    "mark_price": 211.30999755859375,
+    "unrealized_pnl": -0.6697544567113374,
+    "unrealized_pnl_pct": -0.3348772283556678
   },
   {
     "ticker": "SLDE",
@@ -362,10 +362,10 @@
     "target": 31.99,
     "score": 114.3,
     "status": "open",
-    "mark_date": "2026-09-16",
-    "mark_price": 26.155000686645508,
-    "unrealized_pnl": 13.946829206569516,
-    "unrealized_pnl_pct": 6.9734146032847555
+    "mark_date": "2026-09-17",
+    "mark_price": 25.290000915527344,
+    "unrealized_pnl": 6.871166677926134,
+    "unrealized_pnl_pct": 3.4355833389630774
   },
   {
     "ticker": "TALO",
@@ -378,10 +378,10 @@
     "target": 22.78,
     "score": 114.3,
     "status": "open",
-    "mark_date": "2026-09-16",
-    "mark_price": 17.75,
-    "unrealized_pnl": -3.432995294678508,
-    "unrealized_pnl_pct": -1.7164976473392546
+    "mark_date": "2026-09-17",
+    "mark_price": 17.155000686645508,
+    "unrealized_pnl": -10.022135172301917,
+    "unrealized_pnl_pct": -5.011067586150963
   },
   {
     "ticker": "PSX",
@@ -394,10 +394,10 @@
     "target": 332.18,
     "score": 114.1,
     "status": "open",
-    "mark_date": "2026-09-16",
-    "mark_price": 266.2950134277344,
-    "unrealized_pnl": 6.334277440874261,
-    "unrealized_pnl_pct": 3.1671387204371237
+    "mark_date": "2026-09-17",
+    "mark_price": 272.32000732421875,
+    "unrealized_pnl": 11.002644100147599,
+    "unrealized_pnl_pct": 5.501322050073809
   },
   {
     "ticker": "DK",
@@ -410,10 +410,10 @@
     "target": 97.33000000000001,
     "score": 113.8,
     "status": "open",
-    "mark_date": "2026-09-16",
-    "mark_price": 78.80000305175781,
-    "unrealized_pnl": 11.771042705131993,
-    "unrealized_pnl_pct": 5.885521352565992
+    "mark_date": "2026-09-17",
+    "mark_price": 81.5199966430664,
+    "unrealized_pnl": 19.08088860202055,
+    "unrealized_pnl_pct": 9.540444301010265
   },
   {
     "ticker": "ASC",
@@ -426,10 +426,10 @@
     "target": 24.21,
     "score": 113.9,
     "status": "open",
-    "mark_date": "2026-09-16",
-    "mark_price": 18.809999465942383,
-    "unrealized_pnl": 0.0,
-    "unrealized_pnl_pct": 0.0
+    "mark_date": "2026-09-17",
+    "mark_price": 19.219999313354492,
+    "unrealized_pnl": 4.359381808111799,
+    "unrealized_pnl_pct": 2.1796909040558976
   },
   {
     "ticker": "NSIT",
@@ -442,8 +442,24 @@
     "target": 208.29,
     "score": 112.3,
     "status": "open",
-    "mark_date": "2026-09-16",
-    "mark_price": 160.72000122070312,
+    "mark_date": "2026-09-17",
+    "mark_price": 159.55999755859375,
+    "unrealized_pnl": -1.4435087771265513,
+    "unrealized_pnl_pct": -0.7217543885632782
+  },
+  {
+    "ticker": "SM",
+    "signal_date": "2026-09-16",
+    "entry_date": "2026-09-17",
+    "entry_price": 37.56999969482422,
+    "shares": 5.323396370097728,
+    "cost_basis": 200.0,
+    "stop_loss": 36.1,
+    "target": 50.35,
+    "score": 112.1,
+    "status": "open",
+    "mark_date": "2026-09-17",
+    "mark_price": 37.56999969482422,
     "unrealized_pnl": 0.0,
     "unrealized_pnl_pct": 0.0
   }
