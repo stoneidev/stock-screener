@@ -935,6 +935,23 @@
     "score": 116.9
   },
   {
+    "ticker": "SLDE",
+    "signal_date": "2026-09-10",
+    "entry_date": "2026-09-11",
+    "entry_price": 24.450000762939453,
+    "exit_date": "2026-09-23",
+    "exit_price": 22.96,
+    "shares": 8.17995884495651,
+    "cost_basis": 200.0,
+    "pnl": -12.18814491979852,
+    "pnl_pct": -6.094072459899258,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 22.96,
+    "target": 31.99,
+    "score": 114.3
+  },
+  {
     "ticker": "TALO",
     "signal_date": "2026-09-11",
     "entry_date": "2026-09-14",
@@ -950,6 +967,23 @@
     "stop_loss": 16.46,
     "target": 22.78,
     "score": 114.3
+  },
+  {
+    "ticker": "DK",
+    "signal_date": "2026-09-14",
+    "entry_date": "2026-09-15",
+    "entry_price": 74.41999816894531,
+    "exit_date": "2026-09-24",
+    "exit_price": 68.79,
+    "shares": 2.6874496764427214,
+    "cost_basis": 200.0,
+    "pnl": -15.130336757505177,
+    "pnl_pct": -7.565168378752585,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 68.79,
+    "target": 97.33000000000001,
+    "score": 113.8
   },
   {
     "ticker": "ASC",
