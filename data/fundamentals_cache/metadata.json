@@ -7906,5 +7906,25 @@
   "NTRB": {
     "last_updated": "2026-09-25T17:39:42.767222",
     "in_earnings_season": false
+  },
+  "CDNL": {
+    "last_updated": "2026-09-28T19:43:23.955561",
+    "in_earnings_season": false
+  },
+  "SAMG": {
+    "last_updated": "2026-09-28T20:21:28.172994",
+    "in_earnings_season": false
+  },
+  "SBC": {
+    "last_updated": "2026-09-28T20:21:39.236074",
+    "in_earnings_season": false
+  },
+  "WSBF": {
+    "last_updated": "2026-09-28T20:33:26.341318",
+    "in_earnings_season": false
+  },
+  "XRN": {
+    "last_updated": "2026-09-28T20:34:12.521385",
+    "in_earnings_season": false
   }
 }
