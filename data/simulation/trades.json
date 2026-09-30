@@ -816,6 +816,23 @@
     "score": 110.9
   },
   {
+    "ticker": "ET",
+    "signal_date": "2026-08-19",
+    "entry_date": "2026-08-20",
+    "entry_price": 21.299999237060547,
+    "exit_date": "2026-09-30",
+    "exit_price": 19.76,
+    "shares": 9.389671697828685,
+    "cost_basis": 200.0,
+    "pnl": -14.46008725090517,
+    "pnl_pct": -7.230043625452587,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 19.76,
+    "target": 25.419999999999998,
+    "score": 121.6
+  },
+  {
     "ticker": "PLPC",
     "signal_date": "2026-08-19",
     "entry_date": "2026-08-20",
@@ -916,6 +933,23 @@
     "stop_loss": 16.13,
     "target": 23.1,
     "score": 113.7
+  },
+  {
+    "ticker": "PAA",
+    "signal_date": "2026-09-02",
+    "entry_date": "2026-09-03",
+    "entry_price": 25.770000457763672,
+    "exit_date": "2026-09-30",
+    "exit_price": 23.67,
+    "shares": 7.760962221471224,
+    "cost_basis": 200.0,
+    "pnl": -16.29802421777612,
+    "pnl_pct": -8.149012108888066,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 23.67,
+    "target": 33.370000000000005,
+    "score": 115.8
   },
   {
     "ticker": "CNQ",
