@@ -7934,5 +7934,17 @@
   "VRME": {
     "last_updated": "2026-09-29T18:58:27.835147",
     "in_earnings_season": false
+  },
+  "VRA": {
+    "last_updated": "2026-10-01T19:19:23.189825",
+    "in_earnings_season": false
+  },
+  "WFCF": {
+    "last_updated": "2026-10-01T19:20:29.218124",
+    "in_earnings_season": false
+  },
+  "WLTH": {
+    "last_updated": "2026-10-01T19:20:50.250427",
+    "in_earnings_season": false
   }
 }

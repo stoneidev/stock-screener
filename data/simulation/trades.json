@@ -221,6 +221,23 @@
     "score": 111.3
   },
   {
+    "ticker": "SPG",
+    "signal_date": "2026-06-15",
+    "entry_date": "2026-06-16",
+    "entry_price": 215.82000732421875,
+    "exit_date": "2026-10-01",
+    "exit_price": 199.74,
+    "shares": 0.9266981429555189,
+    "cost_basis": 200.0,
+    "pnl": -14.90131292606465,
+    "pnl_pct": -7.450656463032324,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 199.74,
+    "target": 268.8,
+    "score": 116.3
+  },
+  {
     "ticker": "GCO",
     "signal_date": "2026-06-15",
     "entry_date": "2026-06-16",
