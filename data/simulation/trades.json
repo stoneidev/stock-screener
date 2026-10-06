@@ -833,23 +833,6 @@
     "score": 110.9
   },
   {
-    "ticker": "ET",
-    "signal_date": "2026-08-19",
-    "entry_date": "2026-08-20",
-    "entry_price": 21.299999237060547,
-    "exit_date": "2026-09-30",
-    "exit_price": 19.76,
-    "shares": 9.389671697828685,
-    "cost_basis": 200.0,
-    "pnl": -14.46008725090517,
-    "pnl_pct": -7.230043625452587,
-    "exit_reason": "stop",
-    "status": "closed",
-    "stop_loss": 19.76,
-    "target": 25.419999999999998,
-    "score": 121.6
-  },
-  {
     "ticker": "PLPC",
     "signal_date": "2026-08-19",
     "entry_date": "2026-08-20",
