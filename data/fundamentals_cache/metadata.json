@@ -7974,5 +7974,13 @@
   "LMB": {
     "last_updated": "2026-10-06T18:46:32.802506",
     "in_earnings_season": false
+  },
+  "INGN": {
+    "last_updated": "2026-10-09T18:43:55.838283",
+    "in_earnings_season": false
+  },
+  "SOTK": {
+    "last_updated": "2026-10-09T19:07:15.025576",
+    "in_earnings_season": false
   }
 }
