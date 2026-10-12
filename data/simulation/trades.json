@@ -85,6 +85,23 @@
     "score": 112.0
   },
   {
+    "ticker": "TIGO",
+    "signal_date": "2026-06-04",
+    "entry_date": "2026-06-05",
+    "entry_price": 86.19999694824219,
+    "exit_date": "2026-10-09",
+    "exit_price": 80.76,
+    "shares": 2.3201856969912393,
+    "cost_basis": 200.0,
+    "pnl": -12.621803110987504,
+    "pnl_pct": -6.3109015554937535,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 80.76,
+    "target": 114.10000000000001,
+    "score": 111.5
+  },
+  {
     "ticker": "LSCC",
     "signal_date": "2026-06-05",
     "entry_date": "2026-06-08",
@@ -831,6 +848,23 @@
     "stop_loss": 87.83,
     "target": 117.91,
     "score": 110.9
+  },
+  {
+    "ticker": "ET",
+    "signal_date": "2026-08-19",
+    "entry_date": "2026-08-20",
+    "entry_price": 21.299999237060547,
+    "exit_date": "2026-09-30",
+    "exit_price": 19.76,
+    "shares": 9.389671697828685,
+    "cost_basis": 200.0,
+    "pnl": -14.46008725090517,
+    "pnl_pct": -7.230043625452587,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 19.76,
+    "target": 25.419999999999998,
+    "score": 121.6
   },
   {
     "ticker": "PLPC",
