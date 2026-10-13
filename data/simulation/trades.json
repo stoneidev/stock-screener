@@ -1120,5 +1120,39 @@
     "stop_loss": 36.1,
     "target": 50.35,
     "score": 112.1
+  },
+  {
+    "ticker": "BE",
+    "signal_date": "2026-10-01",
+    "entry_date": "2026-10-02",
+    "entry_price": 284.0,
+    "exit_date": "2026-10-13",
+    "exit_price": 250.04,
+    "shares": 0.704225352112676,
+    "cost_basis": 200.0,
+    "pnl": -23.915492957746483,
+    "pnl_pct": -11.957746478873243,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 250.04,
+    "target": 357.09000000000003,
+    "score": 111.8
+  },
+  {
+    "ticker": "ANET",
+    "signal_date": "2026-10-09",
+    "entry_date": "2026-10-12",
+    "entry_price": 214.8000030517578,
+    "exit_date": "2026-10-13",
+    "exit_price": 199.77,
+    "shares": 0.9310986832332976,
+    "cost_basis": 200.0,
+    "pnl": -13.994416050484134,
+    "pnl_pct": -6.997208025242063,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 199.77,
+    "target": 265.63,
+    "score": 119.5
   }
 ]
