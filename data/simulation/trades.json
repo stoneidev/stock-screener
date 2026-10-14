@@ -289,6 +289,23 @@
     "score": 113.9
   },
   {
+    "ticker": "BNY",
+    "signal_date": "2026-06-18",
+    "entry_date": "2026-06-22",
+    "entry_price": 145.02999877929688,
+    "exit_date": "2026-10-14",
+    "exit_price": 138.98,
+    "shares": 1.3790250409113989,
+    "cost_basis": 200.0,
+    "pnl": -8.3430998141338,
+    "pnl_pct": -4.171549907066896,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 138.98,
+    "target": 179.54,
+    "score": 108.9
+  },
+  {
     "ticker": "ANAB",
     "signal_date": "2026-06-19",
     "entry_date": "2026-06-22",
@@ -952,6 +969,23 @@
     "score": 115.9
   },
   {
+    "ticker": "MPC",
+    "signal_date": "2026-08-28",
+    "entry_date": "2026-08-31",
+    "entry_price": 374.239990234375,
+    "exit_date": "2026-10-14",
+    "exit_price": 479.48,
+    "shares": 0.5344164312176958,
+    "cost_basis": 200.0,
+    "pnl": 56.24199044026077,
+    "pnl_pct": 28.120995220130386,
+    "exit_reason": "target",
+    "status": "closed",
+    "stop_loss": 345.93,
+    "target": 479.48,
+    "score": 114.4
+  },
+  {
     "ticker": "NGL",
     "signal_date": "2026-09-01",
     "entry_date": "2026-09-02",
@@ -1137,6 +1171,23 @@
     "stop_loss": 250.04,
     "target": 357.09000000000003,
     "score": 111.8
+  },
+  {
+    "ticker": "MTRN",
+    "signal_date": "2026-10-07",
+    "entry_date": "2026-10-08",
+    "entry_price": 287.760009765625,
+    "exit_date": "2026-10-13",
+    "exit_price": 263.66,
+    "shares": 0.6950236072166391,
+    "cost_basis": 200.0,
+    "pnl": -16.7500757212609,
+    "pnl_pct": -8.375037860630453,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 263.66,
+    "target": 380.85,
+    "score": 111.3
   },
   {
     "ticker": "ANET",

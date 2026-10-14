@@ -7982,5 +7982,33 @@
   "SOTK": {
     "last_updated": "2026-10-09T19:07:15.025576",
     "in_earnings_season": false
+  },
+  "FBLA": {
+    "last_updated": "2026-10-14T17:18:53.393008",
+    "in_earnings_season": false
+  },
+  "LB": {
+    "last_updated": "2026-10-14T17:30:31.748370",
+    "in_earnings_season": false
+  },
+  "NPK": {
+    "last_updated": "2026-10-14T17:37:29.823502",
+    "in_earnings_season": false
+  },
+  "SMPL": {
+    "last_updated": "2026-10-14T17:49:53.234260",
+    "in_earnings_season": false
+  },
+  "SOMN": {
+    "last_updated": "2026-10-14T17:50:23.064614",
+    "in_earnings_season": false
+  },
+  "TMP": {
+    "last_updated": "2026-10-14T17:53:39.178412",
+    "in_earnings_season": false
+  },
+  "WING": {
+    "last_updated": "2026-10-14T17:58:45.942921",
+    "in_earnings_season": false
   }
 }
