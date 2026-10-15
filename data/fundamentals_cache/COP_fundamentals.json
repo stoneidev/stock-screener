@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "COP",
-    "fetch_date": "2026-08-14T13:34:29.483923",
+    "fetch_date": "2026-10-15T16:59:02.309214",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 14004000000.0,
@@ -26,7 +26,6 @@
     "margin_change": 9.46,
     "operating_margin": 31.2,
     "quarterly_inventory": {
-      "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1897000000.0,
       "2025-09-30 00:00:00": 1721000000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 0.098,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-14T13:34:29.485455"
+  "fetched_at": "2026-10-15T16:59:02.311272"
 }

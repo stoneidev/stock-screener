@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CRVL",
-    "fetch_date": "2026-08-13T13:40:29.406514",
+    "fetch_date": "2026-10-15T16:59:44.244371",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 234711000.0,
       "2025-09-30 00:00:00": 239643000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 16.67,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-13T13:40:29.407646"
+  "fetched_at": "2026-10-15T16:59:44.245981"
 }

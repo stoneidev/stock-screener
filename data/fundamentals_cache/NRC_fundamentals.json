@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NRC",
-    "fetch_date": "2026-08-12T14:03:54.291199",
+    "fetch_date": "2026-10-15T17:24:32.516451",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 34038000.0,
       "2025-09-30 00:00:00": 34608000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -9.15,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-12T14:03:54.292361"
+  "fetched_at": "2026-10-15T17:24:32.517823"
 }
