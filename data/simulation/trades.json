@@ -1207,6 +1207,23 @@
     "score": 111.8
   },
   {
+    "ticker": "CORT",
+    "signal_date": "2026-10-06",
+    "entry_date": "2026-10-07",
+    "entry_price": 119.0,
+    "exit_date": "2026-10-16",
+    "exit_price": 112.96,
+    "shares": 1.680672268907563,
+    "cost_basis": 200.0,
+    "pnl": -10.15126050420169,
+    "pnl_pct": -5.075630252100849,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 112.96,
+    "target": 155.27999999999997,
+    "score": 109.3
+  },
+  {
     "ticker": "MTRN",
     "signal_date": "2026-10-07",
     "entry_date": "2026-10-08",
