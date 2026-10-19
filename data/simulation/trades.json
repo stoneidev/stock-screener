@@ -799,6 +799,23 @@
     "score": 112.1
   },
   {
+    "ticker": "HTGC",
+    "signal_date": "2026-08-14",
+    "entry_date": "2026-08-17",
+    "entry_price": 16.739999771118164,
+    "exit_date": "2026-10-19",
+    "exit_price": 15.99,
+    "shares": 11.947431465624256,
+    "cost_basis": 200.0,
+    "pnl": -8.96057086466814,
+    "pnl_pct": -4.480285432334075,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 15.99,
+    "target": 20.93,
+    "score": 116.4
+  },
+  {
     "ticker": "JOE",
     "signal_date": "2026-08-14",
     "entry_date": "2026-08-17",
