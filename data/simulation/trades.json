@@ -816,6 +816,23 @@
     "score": 116.4
   },
   {
+    "ticker": "LEGH",
+    "signal_date": "2026-08-14",
+    "entry_date": "2026-08-17",
+    "entry_price": 29.110000610351562,
+    "exit_date": "2026-10-20",
+    "exit_price": 26.1,
+    "shares": 6.870491096069564,
+    "cost_basis": 200.0,
+    "pnl": -20.680182392584353,
+    "pnl_pct": -10.340091196292178,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 26.1,
+    "target": 37.26,
+    "score": 113.8
+  },
+  {
     "ticker": "JOE",
     "signal_date": "2026-08-14",
     "entry_date": "2026-08-17",
