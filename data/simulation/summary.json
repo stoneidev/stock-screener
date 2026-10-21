@@ -1,9 +1,9 @@
 {
   "invested_capital": 18600.0,
   "realized_pnl": -346.0666823897178,
-  "unrealized_pnl": 195.11208768758965,
-  "total_pnl": -150.95459470212816,
-  "total_return_pct": -0.81158384248456,
+  "unrealized_pnl": 215.716949358897,
+  "total_pnl": -130.3497330308208,
+  "total_return_pct": -0.7008050162947356,
   "num_trades": 76,
   "num_open": 17,
   "win_rate": 11.842105263157894,
