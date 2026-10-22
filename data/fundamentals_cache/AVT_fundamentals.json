@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AVT",
-    "fetch_date": "2026-10-15T16:51:00.172370",
+    "fetch_date": "2026-10-22T17:05:32.835685",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 5617795000.0,
       "2025-09-30 00:00:00": 5898572000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.732,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:51:00.174303"
+  "fetched_at": "2026-10-22T17:05:32.836427"
 }

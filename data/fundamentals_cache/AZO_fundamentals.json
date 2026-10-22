@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AZO",
-    "fetch_date": "2026-10-15T16:51:19.118510",
+    "fetch_date": "2026-10-22T17:05:51.340389",
     "quarterly_revenue": {
       "2025-02-28 00:00:00": NaN,
       "2025-05-31 00:00:00": 4464339000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 1.561,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:51:19.120368"
+  "fetched_at": "2026-10-22T17:05:51.341083"
 }

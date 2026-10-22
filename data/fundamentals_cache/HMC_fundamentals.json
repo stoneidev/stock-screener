@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HMC",
-    "fetch_date": "2026-10-15T17:11:48.254459",
+    "fetch_date": "2026-10-22T17:26:23.020434",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 5340268000000.0,
       "2025-09-30 00:00:00": 5292412000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.421,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T17:11:48.256295"
+  "fetched_at": "2026-10-22T17:26:23.021234"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OMCL",
-    "fetch_date": "2026-10-15T17:26:29.376020",
+    "fetch_date": "2026-10-22T17:41:03.109222",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 290562000.0,
       "2025-09-30 00:00:00": 310631000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.31,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T17:26:29.377931"
+  "fetched_at": "2026-10-22T17:41:03.110018"
 }

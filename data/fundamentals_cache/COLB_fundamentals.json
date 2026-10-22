@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "COLB",
-    "fetch_date": "2026-10-15T16:58:55.219346",
+    "fetch_date": "2026-10-22T17:13:26.478461",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 509000000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 0.0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:58:55.220126"
+  "fetched_at": "2026-10-22T17:13:26.478857"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RAMP",
-    "fetch_date": "2026-10-15T17:31:39.434449",
+    "fetch_date": "2026-10-22T17:46:13.128823",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 194822000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 12.49,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T17:31:39.435971"
+  "fetched_at": "2026-10-22T17:46:13.129473"
 }

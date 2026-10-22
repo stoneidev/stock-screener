@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AMPH",
-    "fetch_date": "2026-10-15T16:48:25.090627",
+    "fetch_date": "2026-10-22T17:02:57.195911",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 174414000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.978,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:48:25.092566"
+  "fetched_at": "2026-10-22T17:02:57.196650"
 }

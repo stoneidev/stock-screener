@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ARLP",
-    "fetch_date": "2026-10-15T16:49:43.148604",
+    "fetch_date": "2026-10-22T17:04:15.455821",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 547463000.0,
       "2025-09-30 00:00:00": 571367000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.227,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:49:43.150434"
+  "fetched_at": "2026-10-22T17:04:15.456608"
 }

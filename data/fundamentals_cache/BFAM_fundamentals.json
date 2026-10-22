@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BFAM",
-    "fetch_date": "2026-10-15T16:52:30.181126",
+    "fetch_date": "2026-10-22T17:07:02.585160",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 731570000.0,
       "2025-09-30 00:00:00": 802812000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 10.24,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:52:30.182487"
+  "fetched_at": "2026-10-22T17:07:02.585824"
 }

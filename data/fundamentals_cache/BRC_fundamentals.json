@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BRC",
-    "fetch_date": "2026-10-15T16:54:08.087002",
+    "fetch_date": "2026-10-22T17:08:40.517208",
     "quarterly_revenue": {
       "2025-07-31 00:00:00": 397275000.0,
       "2025-10-31 00:00:00": 405287000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.515,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-15T16:54:08.088886"
+  "fetched_at": "2026-10-22T17:08:40.518040"
 }
