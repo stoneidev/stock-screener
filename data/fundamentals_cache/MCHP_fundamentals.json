@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MCHP",
-    "fetch_date": "2026-10-20T17:18:05.601005",
+    "fetch_date": "2026-10-27T18:25:40.855477",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1075500000.0,
       "2025-09-30 00:00:00": 1140400000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.705,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-20T17:18:05.602693"
+  "fetched_at": "2026-10-27T18:25:40.856835"
 }
