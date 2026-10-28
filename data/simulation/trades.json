@@ -136,6 +136,23 @@
     "score": 113.5
   },
   {
+    "ticker": "MSGS",
+    "signal_date": "2026-06-08",
+    "entry_date": "2026-06-09",
+    "entry_price": 290.6551208496094,
+    "exit_date": "2026-06-10",
+    "exit_price": 355.07,
+    "shares": 0.6881007271276803,
+    "cost_basis": 200.0,
+    "pnl": 44.32392518122544,
+    "pnl_pct": 22.161962590612717,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 355.07,
+    "target": 500.63,
+    "score": 113.3
+  },
+  {
     "ticker": "ADTN",
     "signal_date": "2026-06-08",
     "entry_date": "2026-06-09",
