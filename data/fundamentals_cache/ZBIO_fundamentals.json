@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ZBIO",
-    "fetch_date": "2026-10-22T18:02:04.342242",
+    "fetch_date": "2026-10-29T19:22:30.435135",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 0.0,
@@ -25,5 +25,5 @@
     "operating_margin": -7765.9,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T18:02:04.342768"
+  "fetched_at": "2026-10-29T19:22:30.436238"
 }

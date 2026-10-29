@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LOVE",
-    "fetch_date": "2026-10-22T17:33:26.021291",
+    "fetch_date": "2026-10-29T18:53:54.712358",
     "quarterly_revenue": {
       "2025-01-31 00:00:00": NaN,
       "2025-04-30 00:00:00": NaN,
@@ -39,5 +39,5 @@
     "inventory_to_sales_ratio": 0.807,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:33:26.022102"
+  "fetched_at": "2026-10-29T18:53:54.714218"
 }

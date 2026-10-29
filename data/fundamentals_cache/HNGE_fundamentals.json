@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HNGE",
-    "fetch_date": "2026-10-22T17:26:26.900481",
+    "fetch_date": "2026-10-29T18:46:55.796047",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 139098000.0,
       "2025-09-30 00:00:00": 154211000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.079,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:26:26.901898"
+  "fetched_at": "2026-10-29T18:46:55.797887"
 }

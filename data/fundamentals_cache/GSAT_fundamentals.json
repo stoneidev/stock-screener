@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GSAT",
-    "fetch_date": "2026-10-22T17:24:53.689686",
+    "fetch_date": "2026-10-29T18:45:22.686972",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 67148000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.169,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:24:53.690492"
+  "fetched_at": "2026-10-29T18:45:22.688858"
 }

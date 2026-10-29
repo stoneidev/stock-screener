@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PAYS",
-    "fetch_date": "2026-10-22T17:42:39.003525",
+    "fetch_date": "2026-10-29T19:03:06.766924",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 19078353.0,
       "2025-09-30 00:00:00": 21596478.0,
@@ -25,5 +25,5 @@
     "operating_margin": 24.82,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:42:39.004133"
+  "fetched_at": "2026-10-29T19:03:06.768386"
 }

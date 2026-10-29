@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KD",
-    "fetch_date": "2026-10-22T17:30:34.073597",
+    "fetch_date": "2026-10-29T18:51:02.790790",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 3743000000.0,
       "2025-09-30 00:00:00": 3721000000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 2.99,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:30:34.074199"
+  "fetched_at": "2026-10-29T18:51:02.792257"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MELI",
-    "fetch_date": "2026-10-22T17:35:10.971255",
+    "fetch_date": "2026-10-29T18:55:40.913804",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 6790000000.0,
       "2025-09-30 00:00:00": 7409000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.081,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:35:10.972071"
+  "fetched_at": "2026-10-29T18:55:40.915718"
 }

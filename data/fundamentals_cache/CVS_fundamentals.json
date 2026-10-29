@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CVS",
-    "fetch_date": "2026-10-22T17:15:06.716403",
+    "fetch_date": "2026-10-29T18:35:35.708689",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 98915000000.0,
       "2025-09-30 00:00:00": 102871000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.166,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-22T17:15:06.717154"
+  "fetched_at": "2026-10-29T18:35:35.710534"
 }
