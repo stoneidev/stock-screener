@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NMFC",
-    "fetch_date": "2026-08-12T14:03:32.392385",
+    "fetch_date": "2026-10-30T18:34:37.715230",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 7933000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 157.1428571428571,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-12T14:03:32.393043"
+  "fetched_at": "2026-10-30T18:34:37.715823"
 }
