@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KMT",
-    "fetch_date": "2026-10-16T16:59:16.288828",
+    "fetch_date": "2026-11-02T22:09:25.578453",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 516447000.0,
       "2025-09-30 00:00:00": 497974000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 1.505,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-16T16:59:16.289683"
+  "fetched_at": "2026-11-02T22:09:25.579362"
 }
