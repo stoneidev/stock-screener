@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VRDN",
-    "fetch_date": "2026-10-27T18:50:00.880787",
+    "fetch_date": "2026-11-03T20:00:29.802678",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 75000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -44460.56,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-27T18:50:00.881614"
+  "fetched_at": "2026-11-03T20:00:29.803629"
 }

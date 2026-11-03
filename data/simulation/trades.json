@@ -1307,5 +1307,22 @@
     "stop_loss": 199.77,
     "target": 265.63,
     "score": 119.5
+  },
+  {
+    "ticker": "FANG",
+    "signal_date": "2026-10-28",
+    "entry_date": "2026-10-29",
+    "entry_price": 208.1699981689453,
+    "exit_date": "2026-11-03",
+    "exit_price": 195.45,
+    "shares": 0.9607532389834833,
+    "cost_basis": 200.0,
+    "pnl": -12.220779440678196,
+    "pnl_pct": -6.110389720339093,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 195.45,
+    "target": 267.23,
+    "score": 113.8
   }
 ]
