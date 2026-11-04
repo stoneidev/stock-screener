@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BEAM",
-    "fetch_date": "2026-10-28T18:21:52.600666",
+    "fetch_date": "2026-11-04T19:45:26.774984",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 8466000.0,
       "2025-09-30 00:00:00": 9698000.0,
@@ -23,5 +23,5 @@
     "operating_margin": -25827.14,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-28T18:21:52.601314"
+  "fetched_at": "2026-11-04T19:45:26.775983"
 }
