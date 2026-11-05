@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UHAL",
-    "fetch_date": "2026-10-29T19:17:40.134617",
+    "fetch_date": "2026-11-05T20:44:43.369085",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1630470000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.107,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T19:17:40.136531"
+  "fetched_at": "2026-11-05T20:44:43.370805"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EMBJ",
-    "fetch_date": "2026-10-29T18:39:10.712686",
+    "fetch_date": "2026-11-05T20:06:19.183234",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 1103000000.0,
       "2025-06-30 00:00:00": 1819200000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 1.656,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T18:39:10.714545"
+  "fetched_at": "2026-11-05T20:06:19.184963"
 }

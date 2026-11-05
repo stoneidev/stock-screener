@@ -1343,6 +1343,23 @@
     "score": 119.5
   },
   {
+    "ticker": "GTE",
+    "signal_date": "2026-10-14",
+    "entry_date": "2026-10-15",
+    "entry_price": 10.789999961853027,
+    "exit_date": "2026-11-05",
+    "exit_price": 9.94,
+    "shares": 18.535681251814655,
+    "cost_basis": 200.0,
+    "pnl": -15.75532835696234,
+    "pnl_pct": -7.87766417848117,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 9.94,
+    "target": 14.09,
+    "score": 113.5
+  },
+  {
     "ticker": "FANG",
     "signal_date": "2026-10-28",
     "entry_date": "2026-10-29",

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ISRG",
-    "fetch_date": "2026-10-29T18:50:03.771693",
+    "fetch_date": "2026-11-05T20:17:09.116882",
     "quarterly_revenue": {
       "2025-09-30 00:00:00": 2505100000.0,
       "2025-12-31 00:00:00": 2866200000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.698,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T18:50:03.773711"
+  "fetched_at": "2026-11-05T20:17:09.118557"
 }

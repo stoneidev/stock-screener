@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NRDS",
-    "fetch_date": "2026-10-29T18:59:35.795693",
+    "fetch_date": "2026-11-05T20:26:40.302697",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 186900000.0,
       "2025-09-30 00:00:00": 215100000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 3.55,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T18:59:35.797230"
+  "fetched_at": "2026-11-05T20:26:40.304076"
 }

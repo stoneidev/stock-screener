@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FA",
-    "fetch_date": "2026-10-29T18:40:40.610458",
+    "fetch_date": "2026-11-05T20:07:49.132469",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 390633000.0,
       "2025-09-30 00:00:00": 409151000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 12.71,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T18:40:40.611866"
+  "fetched_at": "2026-11-05T20:07:49.133836"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ULBI",
-    "fetch_date": "2026-10-29T19:17:44.359109",
+    "fetch_date": "2026-11-05T20:44:47.321224",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 48561000.0,
       "2025-09-30 00:00:00": 43371000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 1.225,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-10-29T19:17:44.360928"
+  "fetched_at": "2026-11-05T20:44:47.322919"
 }
