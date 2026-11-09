@@ -510,6 +510,23 @@
     "score": 112.7
   },
   {
+    "ticker": "BBY",
+    "signal_date": "2026-07-09",
+    "entry_date": "2026-07-10",
+    "entry_price": 80.58000183105469,
+    "exit_date": "2026-11-09",
+    "exit_price": 104.21,
+    "shares": 2.482005404012315,
+    "cost_basis": 200.0,
+    "pnl": 58.64978315212336,
+    "pnl_pct": 29.324891576061685,
+    "exit_reason": "target",
+    "status": "closed",
+    "stop_loss": 74.38,
+    "target": 104.21,
+    "score": 113.1
+  },
+  {
     "ticker": "ASND",
     "signal_date": "2026-07-10",
     "entry_date": "2026-07-13",
@@ -1173,6 +1190,23 @@
     "score": 114.3
   },
   {
+    "ticker": "PSX",
+    "signal_date": "2026-09-14",
+    "entry_date": "2026-09-15",
+    "entry_price": 258.1199951171875,
+    "exit_date": "2026-11-09",
+    "exit_price": 241.93,
+    "shares": 0.7748334254740676,
+    "cost_basis": 200.0,
+    "pnl": -12.544549375058814,
+    "pnl_pct": -6.272274687529411,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 241.93,
+    "target": 332.18,
+    "score": 114.1
+  },
+  {
     "ticker": "DK",
     "signal_date": "2026-09-14",
     "entry_date": "2026-09-15",
@@ -1426,5 +1460,22 @@
     "stop_loss": 44.2,
     "target": 59.67,
     "score": 114.9
+  },
+  {
+    "ticker": "CAKE",
+    "signal_date": "2026-11-05",
+    "entry_date": "2026-11-06",
+    "entry_price": 109.66999816894531,
+    "exit_date": "2026-11-09",
+    "exit_price": 106.82,
+    "shares": 1.8236528069591322,
+    "cost_basis": 200.0,
+    "pnl": -5.197407160625518,
+    "pnl_pct": -2.5987035803127556,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 106.82,
+    "target": 145.48,
+    "score": 112.9
   }
 ]
