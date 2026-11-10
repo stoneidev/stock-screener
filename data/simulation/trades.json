@@ -1394,6 +1394,23 @@
     "score": 111.3
   },
   {
+    "ticker": "BP",
+    "signal_date": "2026-10-08",
+    "entry_date": "2026-10-09",
+    "entry_price": 46.310001373291016,
+    "exit_date": "2026-11-10",
+    "exit_price": 43.44,
+    "shares": 4.318721530320417,
+    "cost_basis": 200.0,
+    "pnl": -12.394736722881083,
+    "pnl_pct": -6.197368361440548,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 43.44,
+    "target": 59.37,
+    "score": 113.6
+  },
+  {
     "ticker": "ANET",
     "signal_date": "2026-10-09",
     "entry_date": "2026-10-12",
