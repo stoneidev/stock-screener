@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PII",
-    "fetch_date": "2026-11-04T20:22:12.124835",
+    "fetch_date": "2026-11-12T20:30:08.063667",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": NaN,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.756,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-04T20:22:12.126571"
+  "fetched_at": "2026-11-12T20:30:08.064780"
 }

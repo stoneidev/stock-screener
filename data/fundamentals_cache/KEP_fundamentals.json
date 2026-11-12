@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KEP",
-    "fetch_date": "2026-11-04T20:09:13.143063",
+    "fetch_date": "2026-11-12T20:17:10.118848",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 21950138000000.0,
       "2025-09-30 00:00:00": 27572384000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.508,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-04T20:09:13.144791"
+  "fetched_at": "2026-11-12T20:17:10.120672"
 }
