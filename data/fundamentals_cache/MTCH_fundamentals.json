@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MTCH",
-    "fetch_date": "2026-11-05T20:24:32.390886",
+    "fetch_date": "2026-11-13T20:05:57.319161",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": NaN,
@@ -29,5 +29,5 @@
     "operating_margin": 30.64,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:24:32.392318"
+  "fetched_at": "2026-11-13T20:05:57.319813"
 }

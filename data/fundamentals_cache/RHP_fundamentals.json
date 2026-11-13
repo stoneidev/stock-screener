@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RHP",
-    "fetch_date": "2026-11-05T20:34:52.540061",
+    "fetch_date": "2026-11-13T20:16:16.394143",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:34:52.541767"
+  "fetched_at": "2026-11-13T20:16:16.394814"
 }

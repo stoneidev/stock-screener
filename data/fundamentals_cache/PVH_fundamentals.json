@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PVH",
-    "fetch_date": "2026-11-05T20:33:03.559478",
+    "fetch_date": "2026-11-13T20:14:27.321290",
     "quarterly_revenue": {
       "2025-04-30 00:00:00": NaN,
       "2025-07-31 00:00:00": 2167200000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.829,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:33:03.561250"
+  "fetched_at": "2026-11-13T20:14:27.322015"
 }

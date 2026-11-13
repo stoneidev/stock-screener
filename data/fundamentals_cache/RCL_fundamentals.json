@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RCL",
-    "fetch_date": "2026-11-05T20:34:05.380672",
+    "fetch_date": "2026-11-13T20:15:29.293154",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 5139000000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.054,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:34:05.382472"
+  "fetched_at": "2026-11-13T20:15:29.293840"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TMO",
-    "fetch_date": "2026-11-05T20:42:43.481264",
+    "fetch_date": "2026-11-13T20:24:06.476327",
     "quarterly_revenue": {
       "2025-09-30 00:00:00": 11122000000.0,
       "2025-12-31 00:00:00": 12215000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.465,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:42:43.483019"
+  "fetched_at": "2026-11-13T20:24:06.476991"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IVZ",
-    "fetch_date": "2026-11-05T20:17:20.411036",
+    "fetch_date": "2026-11-13T19:58:46.409164",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 1640400000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 23.3,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:17:20.412340"
+  "fetched_at": "2026-11-13T19:58:46.409760"
 }

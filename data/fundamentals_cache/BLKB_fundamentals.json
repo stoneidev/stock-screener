@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BLKB",
-    "fetch_date": "2026-11-05T19:55:27.207378",
+    "fetch_date": "2026-11-13T19:36:55.007673",
     "quarterly_revenue": {
       "2025-09-30 00:00:00": 281143000.0,
       "2025-12-31 00:00:00": 295256000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 20.49,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T19:55:27.208680"
+  "fetched_at": "2026-11-13T19:36:55.008228"
 }

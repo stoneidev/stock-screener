@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SBC",
-    "fetch_date": "2026-11-05T20:36:40.371771",
+    "fetch_date": "2026-11-13T20:18:04.764449",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 43358847.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.061,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:36:40.373569"
+  "fetched_at": "2026-11-13T20:18:04.765182"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AN",
-    "fetch_date": "2026-11-06T19:15:21.487018",
+    "fetch_date": "2026-11-13T19:32:22.215145",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 6974400000.0,
       "2025-09-30 00:00:00": 7037400000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.524,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-06T19:15:21.487788"
+  "fetched_at": "2026-11-13T19:32:22.215855"
 }

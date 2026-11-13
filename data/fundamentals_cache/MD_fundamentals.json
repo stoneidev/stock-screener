@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MD",
-    "fetch_date": "2026-11-05T20:22:29.243326",
+    "fetch_date": "2026-11-13T20:03:54.209209",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 492875000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 14.23,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:22:29.244719"
+  "fetched_at": "2026-11-13T20:03:54.209845"
 }

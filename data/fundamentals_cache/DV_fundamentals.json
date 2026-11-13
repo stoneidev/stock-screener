@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DV",
-    "fetch_date": "2026-11-05T20:05:01.341650",
+    "fetch_date": "2026-11-13T19:46:28.164233",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 188621000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 13.78,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T20:05:01.343004"
+  "fetched_at": "2026-11-13T19:46:28.164774"
 }

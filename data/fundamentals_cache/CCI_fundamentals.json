@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CCI",
-    "fetch_date": "2026-11-05T19:58:24.156443",
+    "fetch_date": "2026-11-13T19:39:51.124032",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 1072000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 47.44,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-11-05T19:58:24.157761"
+  "fetched_at": "2026-11-13T19:39:51.124693"
 }
