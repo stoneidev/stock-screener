@@ -6148,8 +6148,8 @@
     "in_earnings_season": true
   },
   "GTY": {
-    "last_updated": "2026-08-14T13:46:12.946027",
-    "in_earnings_season": true
+    "last_updated": "2026-11-16T22:18:03.072610",
+    "in_earnings_season": false
   },
   "GVA": {
     "last_updated": "2026-11-13T19:54:15.431484",
@@ -6864,8 +6864,8 @@
     "in_earnings_season": true
   },
   "LEGH": {
-    "last_updated": "2026-08-14T13:53:29.105788",
-    "in_earnings_season": true
+    "last_updated": "2026-11-16T22:25:11.940089",
+    "in_earnings_season": false
   },
   "LEVI": {
     "last_updated": "2026-11-12T20:18:52.933742",
@@ -8630,5 +8630,9 @@
   "WFRD": {
     "last_updated": "2026-11-13T20:29:05.601036",
     "in_earnings_season": true
+  },
+  "RUN": {
+    "last_updated": "2026-11-16T22:41:10.123395",
+    "in_earnings_season": false
   }
 }
