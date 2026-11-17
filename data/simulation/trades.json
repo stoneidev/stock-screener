@@ -289,6 +289,23 @@
     "score": 112.7
   },
   {
+    "ticker": "SENEA",
+    "signal_date": "2026-06-18",
+    "entry_date": "2026-06-22",
+    "entry_price": 30.9060001373291,
+    "exit_date": "2026-06-23",
+    "exit_price": 143.67,
+    "shares": 6.471235330075424,
+    "cost_basis": 200.0,
+    "pnl": 729.7223798719361,
+    "pnl_pct": 364.86118993596807,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 143.67,
+    "target": 201.72999999999996,
+    "score": 113.9
+  },
+  {
     "ticker": "BNY",
     "signal_date": "2026-06-18",
     "entry_date": "2026-06-22",
