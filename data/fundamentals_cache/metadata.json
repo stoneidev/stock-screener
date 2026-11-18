@@ -5528,8 +5528,8 @@
     "in_earnings_season": true
   },
   "ELA": {
-    "last_updated": "2026-08-14T13:39:24.504980",
-    "in_earnings_season": true
+    "last_updated": "2026-11-18T20:36:49.321232",
+    "in_earnings_season": false
   },
   "ELAN": {
     "last_updated": "2026-11-09T22:30:34.344785",
@@ -8637,6 +8637,26 @@
   },
   "TWST": {
     "last_updated": "2026-11-17T21:39:49.422622",
+    "in_earnings_season": false
+  },
+  "ABSI": {
+    "last_updated": "2026-11-18T20:18:36.158022",
+    "in_earnings_season": false
+  },
+  "BILL": {
+    "last_updated": "2026-11-18T20:25:53.367717",
+    "in_earnings_season": false
+  },
+  "HZN": {
+    "last_updated": "2026-11-18T20:45:59.486321",
+    "in_earnings_season": false
+  },
+  "MANE": {
+    "last_updated": "2026-11-18T20:52:35.337958",
+    "in_earnings_season": false
+  },
+  "VRSA": {
+    "last_updated": "2026-11-18T21:17:24.578408",
     "in_earnings_season": false
   }
 }

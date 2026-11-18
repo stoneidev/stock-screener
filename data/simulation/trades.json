@@ -1479,6 +1479,23 @@
     "score": 114.9
   },
   {
+    "ticker": "MEOH",
+    "signal_date": "2026-11-03",
+    "entry_date": "2026-11-04",
+    "entry_price": 69.88999938964844,
+    "exit_date": "2026-11-18",
+    "exit_price": 62.66,
+    "shares": 2.861639744550097,
+    "cost_basis": 200.0,
+    "pnl": -20.68965360649092,
+    "pnl_pct": -10.344826803245466,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 62.66,
+    "target": 90.50999999999999,
+    "score": 108.5
+  },
+  {
     "ticker": "CAKE",
     "signal_date": "2026-11-05",
     "entry_date": "2026-11-06",
