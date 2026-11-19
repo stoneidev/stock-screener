@@ -1479,6 +1479,23 @@
     "score": 114.9
   },
   {
+    "ticker": "THC",
+    "signal_date": "2026-11-02",
+    "entry_date": "2026-11-03",
+    "entry_price": 266.82000732421875,
+    "exit_date": "2026-11-19",
+    "exit_price": 260.82,
+    "shares": 0.749568977250554,
+    "cost_basis": 200.0,
+    "pnl": -4.497419353510487,
+    "pnl_pct": -2.248709676755245,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 260.82,
+    "target": 346.31,
+    "score": 113.0
+  },
+  {
     "ticker": "MEOH",
     "signal_date": "2026-11-03",
     "entry_date": "2026-11-04",
@@ -1528,5 +1545,39 @@
     "stop_loss": 70.6,
     "target": 93.95,
     "score": 116.0
+  },
+  {
+    "ticker": "HAS",
+    "signal_date": "2026-11-13",
+    "entry_date": "2026-11-16",
+    "entry_price": 121.1500015258789,
+    "exit_date": "2026-11-19",
+    "exit_price": 116.54,
+    "shares": 1.6508460378127021,
+    "cost_basis": 200.0,
+    "pnl": -7.610402753307693,
+    "pnl_pct": -3.805201376653844,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 116.54,
+    "target": 157.34,
+    "score": 114.8
+  },
+  {
+    "ticker": "HNGE",
+    "signal_date": "2026-11-17",
+    "entry_date": "2026-11-18",
+    "entry_price": 115.31999969482422,
+    "exit_date": "2026-11-19",
+    "exit_price": 110.45,
+    "shares": 1.7343045484674622,
+    "cost_basis": 200.0,
+    "pnl": -8.44606262176879,
+    "pnl_pct": -4.223031310884395,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 110.45,
+    "target": 148.75,
+    "score": 111.9
   }
 ]
