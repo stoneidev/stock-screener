@@ -1480,8 +1480,8 @@
     "in_earnings_season": true
   },
   "STRD": {
-    "last_updated": "2026-08-14T14:14:24.059190",
-    "in_earnings_season": true
+    "last_updated": "2026-11-20T20:46:51.987697",
+    "in_earnings_season": false
   },
   "STRL": {
     "last_updated": "2026-08-14T14:14:27.003175",
@@ -8665,6 +8665,10 @@
   },
   "SG": {
     "last_updated": "2026-11-19T21:12:14.838342",
+    "in_earnings_season": false
+  },
+  "SGP": {
+    "last_updated": "2026-11-20T20:43:56.721959",
     "in_earnings_season": false
   }
 }
