@@ -1630,5 +1630,22 @@
     "stop_loss": 110.45,
     "target": 148.75,
     "score": 111.9
+  },
+  {
+    "ticker": "MAX",
+    "signal_date": "2026-11-20",
+    "entry_date": "2026-11-23",
+    "entry_price": 13.420000076293945,
+    "exit_date": "2026-11-24",
+    "exit_price": 13.25,
+    "shares": 14.903129572502344,
+    "cost_basis": 200.0,
+    "pnl": -2.533533164343951,
+    "pnl_pct": -1.2667665821719742,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 13.25,
+    "target": 17.759999999999998,
+    "score": 112.0
   }
 ]
