@@ -448,8 +448,8 @@
     "in_earnings_season": true
   },
   "OPFI": {
-    "last_updated": "2026-08-06T15:09:20.222822",
-    "in_earnings_season": true
+    "last_updated": "2026-11-25T22:11:34.762640",
+    "in_earnings_season": false
   },
   "OPLN": {
     "last_updated": "2026-11-13T20:10:29.382209",
@@ -8673,6 +8673,18 @@
   },
   "NREF": {
     "last_updated": "2026-11-24T00:21:58.532292",
+    "in_earnings_season": false
+  },
+  "CELC": {
+    "last_updated": "2026-11-25T21:41:23.758326",
+    "in_earnings_season": false
+  },
+  "QNBC": {
+    "last_updated": "2026-11-25T22:15:54.837972",
+    "in_earnings_season": false
+  },
+  "WCCB": {
+    "last_updated": "2026-11-25T22:29:51.963853",
     "in_earnings_season": false
   }
 }

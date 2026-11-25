@@ -1241,6 +1241,23 @@
     "score": 113.9
   },
   {
+    "ticker": "NSIT",
+    "signal_date": "2026-09-15",
+    "entry_date": "2026-09-16",
+    "entry_price": 160.72000122070312,
+    "exit_date": "2026-11-25",
+    "exit_price": 149.26,
+    "shares": 1.2444001896525436,
+    "cost_basis": 200.0,
+    "pnl": -14.260827692461362,
+    "pnl_pct": -7.1304138462306765,
+    "exit_reason": "stop",
+    "status": "closed",
+    "stop_loss": 149.26,
+    "target": 208.29,
+    "score": 112.3
+  },
+  {
     "ticker": "SM",
     "signal_date": "2026-09-16",
     "entry_date": "2026-09-17",
